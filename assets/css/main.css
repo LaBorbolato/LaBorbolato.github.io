@@ -2807,7 +2807,7 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
+							background: #df817a;
 							color: #780000 !important;
 						}
 
@@ -3077,7 +3077,7 @@ input, select, textarea {
 
 					#titleBar .toggle:before {
 						background: #780000;
-						color: #df817a;
+						color: #ffffff;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;

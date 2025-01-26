@@ -2700,7 +2700,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #82c0cc; /* Muda a cor de fundo do menu */
+		background: #588157; /* Muda a cor de fundo do menu */
 		color: #df817a;
 		height: 100%;
 		overflow-y: auto;
@@ -2789,7 +2789,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #c1121f;
+					border-top: solid 2px #a3b18a; /* Muda a cor da linha horizontal no menu */
 					display: block;
 					padding: 0;
 				}

@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: ##588157;
+		color: #588157; /* Muda a cor do Olá*/
 		font-size: 3.5em;
 	}
 
@@ -2200,7 +2200,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 15em; /* Muda a altura da imagem principal */
+			height: 10em; /* Muda a altura da imagem principal */
 			border-radius: 0;
 		}
 

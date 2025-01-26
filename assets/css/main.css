@@ -2200,7 +2200,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 15em;
+			height: 15em; /* Muda a altura da imagem principal */
 			border-radius: 0;
 		}
 
@@ -2626,7 +2626,7 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #c1121f;
+				background-color: #489fb5;
 			}
 
 			input[type="submit"].primary:active,
@@ -2700,7 +2700,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #000000; /* Muda a cor de fundo do menu */
+		background: #82c0cc; /* Muda a cor de fundo do menu */
 		color: #df817a;
 		height: 100%;
 		overflow-y: auto;
@@ -2807,7 +2807,7 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #eeb9a8; /* Muda a cor do item selecionado no menu */
+							background: #ede7e3; /* Muda a cor do item selecionado no menu */
 							color: #780000 !important;
 						}
 

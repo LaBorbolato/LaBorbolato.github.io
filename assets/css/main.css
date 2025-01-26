@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #780000 !important;
+			color: #588157 !important;
 		}
 
 	strong, b {
@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #780000;
+		color: ##588157;
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1848,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #780000;
+			border-color: #588157;
 		}
 
 	select {
@@ -1953,7 +1953,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #780000;
+			border-color: #588157;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2633,7 +2633,7 @@ input, select, textarea {
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #780000;
+				background-color: #588157;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2808,7 +2808,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #ede7e3; /* Muda a cor do item selecionado no menu */
-							color: #780000 !important;
+							color: #588157 !important; /* Muda a cor da palavra do item selecionado no menu */
 						}
 
 					#header > nav ul li:first-child {
@@ -3076,7 +3076,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #780000;
+						background: #588157; /* Cor do icone do menu no celular */
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;

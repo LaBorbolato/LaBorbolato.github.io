@@ -2200,7 +2200,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 10em; /* Muda a altura da imagem principal */
+			height: 0em; /* 10em Muda a altura da imagem principal */
 			border-radius: 0;
 		}
 

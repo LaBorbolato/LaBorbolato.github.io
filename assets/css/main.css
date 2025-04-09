@@ -2700,7 +2700,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #588157; /* Muda a cor de fundo do menu */
+		background: #3a5a40; /* Muda a cor de fundo do menu */
 		color: #df817a;
 		height: 100%;
 		overflow-y: auto;

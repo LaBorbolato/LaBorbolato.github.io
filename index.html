@@ -9,86 +9,66 @@
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     
     <style>
-        /* Configurações Globais ajustadas para o layout misto */
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-            color: #ffffff;
-            font-family: "Source Sans Pro", Helvetica, sans-serif;
-            display: flex;
-            min-height: 100vh;
-        }
-
-        /* O Conteúdo Principal (Lado Esquerdo) - Visual Galáctico */
+        /* Ajustes específicos para a página inicial */
+        
+        /* 1) Força o fundo escuro com a imagem do Gaia e garante contraste do texto */
         #wrapper {
-            flex: 1;
+            background: linear-gradient(135px, rgba(15, 15, 20, 0.88) 0%, rgba(25, 25, 35, 0.78) 100%), 
+                        url('images/Interactive_map_of_the_sky_from_Gaia_s_Early_Data_Release_3.png') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-attachment: fixed !important;
+            color: #ffffff !important;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 60px 80px;
-            box-sizing: border-box;
-            
-            /* 1) CAMINHO CORRIGIDO: Usando a sua imagem do Gaia EDR3 do repositório */
-            background: linear-gradient(135px, rgba(15, 15, 20, 0.85) 0%, rgba(25, 25, 35, 0.75) 100%), 
-                        url('images/Interactive_map_of_the_sky_from_Gaia_s_Early_Data_Release_3.png');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+            min-height: 100vh;
         }
 
-        .hero-content {
-            max-width: 800px;
+        /* Garante que todas as seções internas fiquem transparentes para mostrar o mapa do Gaia */
+        #wrapper > section {
+            background: transparent !important;
+            border: none !important;
+            padding: 4em 4em !important;
         }
 
-        .hero-content h2 {
-            font-size: 56px;
-            font-weight: 700;
-            margin: 0 0 25px 0;
-            color: #ffffff;
-            letter-spacing: -1px;
+        /* Ajustes de cor dos textos para não sumirem no fundo */
+        #wrapper h2, #wrapper p, #wrapper strong {
+            color: #ffffff !important;
         }
 
-        .hero-subtitle {
-            font-size: 32px;
-            font-weight: 300;
-            margin: 0 0 12px 0;
-            color: #e1e1e6;
+        #wrapper .hero-institution {
+            color: #c5c5d2 !important;
+            font-size: 1.35em;
+            margin-bottom: 2em;
         }
 
-        .hero-institution {
-            font-size: 24px;
-            font-weight: 600;
-            margin: 0 0 40px 0;
-            color: #c5c5d2;
-        }
-
-        .bio-text {
-            font-size: 19px;
+        #wrapper .bio-text {
+            color: #e1e1e6 !important;
+            font-size: 1.1em;
             line-height: 1.7;
-            margin: 0 0 45px 0;
-            color: #e1e1e6;
             text-align: justify;
+            max-width: 850px;
         }
 
-        /* Botão de Download */
+        /* 2) Customização do Botão de Download (Estilo sólido e visível) */
         .btn-cv {
             display: inline-flex;
             align-items: center;
-            background-color: #ffffff;
-            color: #222222;
-            padding: 14px 28px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 16px;
-            transition: background-color 0.2s, transform 0.2s;
-            border: none;
+            background-color: #ffffff !important;
+            color: #111118 !important;
+            padding: 0.75em 1.5em !important;
+            border-radius: 6px !important;
+            text-decoration: none !important;
+            font-weight: 700 !important;
+            margin-top: 2em;
             width: fit-content;
+            border: none !important;
+            transition: transform 0.2s;
         }
 
         .btn-cv:hover {
-            background-color: #e1e1e6;
+            background-color: #e1e1e6 !important;
             transform: translateY(-2px);
         }
 
@@ -98,93 +78,15 @@
             width: 18px;
             height: 18px;
         }
-
-        /* 2) BARRA LATERAL AJUSTADA: Forçando o comportamento padrão do seu template */
-        #sidebar {
-            background: #47624b !important; /* Mantém a cor verde oliva */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            box-sizing: border-box;
-        }
-
-        /* Garante que a foto fique redonda e centralizada no topo da barra */
-        #sidebar .avatar-container {
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        #sidebar img.avatar {
-            width: 110px;
-            height: 110px;
-            border-radius: 50%;
-            object-fit: cover;
-            display: block;
-            margin: 0 auto;
-        }
-
-        #sidebar h1 {
-            font-size: 24px;
-            margin: 0 0 5px 0;
-            font-weight: 700;
-        }
-
-        #sidebar h1 a {
-            color: #ffffff;
-            text-decoration: none;
-        }
-
-        #sidebar .email {
-            color: rgba(255, 255, 255, 0.75);
-            font-size: 14px;
-            font-style: italic;
-            margin: 0 0 30px 0;
-        }
-
-        #sidebar nav {
-            width: 100%;
-            margin-bottom: auto;
-        }
-
-        #sidebar nav ul li {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            padding-bottom: 10px;
-        }
-
-        #sidebar nav ul li a {
-            color: rgba(255, 255, 255, 0.8);
-            text-decoration: none;
-        }
-
-        #sidebar nav ul li a:hover, #sidebar nav ul li a.active {
-            color: #ffffff;
-            font-weight: bold;
-        }
-
-        #sidebar footer {
-            margin-top: auto;
-            padding-bottom: 20px;
-        }
-
-        #sidebar footer a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 14px;
-            display: inline-flex;
-            align-items: center;
-            gap: 5px;
-        }
     </style>
 </head>
-<body>
+<body class="is-preload">
 
     <div id="wrapper">
-        <section class="hero-section">
-            <div class="hero-content">
+        <section class="main-hero">
+            <div class="inner">
                 <h2>Olá, bem-vindo!</h2>
-                
-                <p class="hero-subtitle">I am <strong>Lais Borbolato</strong>,</p>
+                <p style="font-size: 1.75em; margin-bottom: 0.25em;">I am <strong>Lais Borbolato</strong>,</p>
                 <p class="hero-institution">PhD Candidate at the University of São Paulo in Brasil.</p>
                 
                 <p class="bio-text">
@@ -203,13 +105,6 @@
 
     <section id="sidebar">
         <div class="inner">
-            <div class="avatar-container">
-                <img src="images/avatar.jpg" alt="Lais Borbolato" class="avatar" />
-            </div>
-            
-            <h1><a href="index.html">Lais Borbolato</a></h1>
-            <p class="email">laisborbolato@usp.br</p>
-            
             <nav>
                 <ul>
                     <li><a href="index.html" class="active">About me</a></li>
@@ -218,17 +113,16 @@
                     <li><a href="outreach.html">Outreach</a></li>
                 </ul>
             </nav>
-
-            <footer>
-                <a href="https://orcid.org/0000-0003-3382-1051" target="_blank">
-                    <svg style="width:16px; height:16px; fill:currentColor;" viewBox="0 0 24 24">
-                        <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S16.628 0 12 0zM7.361 17.656H5.708V6.86h1.653v10.796zm-.827-11.9a.962.962 0 1 1-.001-1.925.962.962 0 0 1 0 1.925zm11.75 11.9h-1.575v-4.57c0-2.73-3.181-2.52-3.181 0v4.57h-1.574V6.86h1.574v1.547c1.472-2.73 4.756-2.924 4.756 1.485v7.764z"/>
-                    </svg>
-                    ORCID
-                </a>
-            </footer>
         </div>
     </section>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 </html>

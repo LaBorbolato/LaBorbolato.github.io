@@ -7,100 +7,204 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		
 		<style>
-			/* ESTILOS EXCLUSIVOS PARA O VISUAL HERO COM FUNDO ESCURO */
+			/* ==========================================================================
+			   ESTILOS CUSTOMIZADOS PARA A NOVA CAPA VERDE EM TELA CHEIA
+			   ========================================================================== */
 			
-			/* 1) Aplica o mapa do Gaia diretamente como fundo do container e força o texto a ficar branco */
-			#one.gaia-hero {
-				background: linear-gradient(135px, rgba(15, 15, 20, 0.88) 0%, rgba(25, 25, 35, 0.78) 100%), 
-							url('https://laborbolato.github.io/images/Interactive_map_of_the_sky_from_Gaia_s_Early_Data_Release_3.png') !important;
-				background-size: cover !important;
-				background-position: center !important;
-				background-attachment: fixed !important;
-				min-height: 100vh;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				padding: 4em 0 !important;
+			/* 1) Oculta a barra lateral original apenas nesta página */
+			#header {
+				display: none !important;
 			}
 
-			/* Garante o contraste de todas as letras contra o fundo estrelado */
-			#one.gaia-hero h2, 
-			#one.gaia-hero p, 
-			#one.gaia-hero p strong,
-			#one.gaia-hero header.major p {
+			/* 2) Remove o recuo lateral que era reservado para a barra e pinta a tela toda de verde */
+			body, #wrapper {
+				padding: 0 !important;
+				margin: 0 !important;
+				background-color: #47624b !important; /* O mesmo verde oliva do seu site */
+				min-height: 100vh;
+			}
+
+			#main {
+				background: transparent !important;
+			}
+
+			/* 3) Novo Menu Superior */
+			.top-nav {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				padding: 2em 0 1em 0;
+			}
+
+			.top-nav ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				display: flex;
+				gap: 2.5em;
+			}
+
+			.top-nav ul li a {
+				color: rgba(255, 255, 255, 0.8);
+				text-decoration: none;
+				font-weight: 600;
+				font-size: 1.1em;
+				letter-spacing: 0.05em;
+				transition: color 0.2s;
+			}
+
+			.top-nav ul li a:hover, .top-nav ul li a.active {
+				color: #ffffff !important;
+				border-bottom: 2px solid #ffffff;
+				padding-bottom: 5px;
+			}
+
+			/* 4) Layout de Duas Colunas (Texto na Esquerda, Foto na Direita) */
+			.hero-container {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 4em 2em;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				gap: 4em;
+			}
+
+			.hero-text {
+				flex: 1;
+			}
+
+			.hero-image-area {
+				flex: 0 0 350px; /* Largura fixa para a sua foto */
+				display: flex;
+				justify-content: center;
+			}
+
+			/* Estilização da sua foto com a borda sutil do mockup */
+			.hero-avatar {
+				width: 100%;
+				max-width: 320px;
+				height: auto;
+				border-radius: 12px;
+				border: 3px solid rgba(255, 255, 255, 0.4);
+				box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+				object-fit: cover;
+			}
+
+			/* Força todos os textos da seção a ficarem brancos */
+			.hero-text h2, 
+			.hero-text p, 
+			.hero-text p strong {
 				color: #ffffff !important;
 			}
 
-			/* Suaviza a cor do subtítulo institucional */
-			#one.gaia-hero header.major p {
-				color: #c5c5d2 !important;
+			.hero-text h2 {
+				font-size: 3.5em;
+				font-weight: 700;
+				margin-bottom: 0.3em;
+				letter-spacing: -1px;
 			}
 
-			/* Garante que o botão de download fique sólido e com leitura perfeita */
-			#one.gaia-hero .button.primary {
-				background-color: #ffffff !important;
-				color: #111118 !important;
+			.hero-subtitle {
+				font-size: 1.8em;
+				margin-bottom: 0.2em;
+				font-weight: 400;
+			}
+
+			.hero-institution {
+				color: rgba(255, 255, 255, 0.85) !important;
+				font-size: 1.35em;
+				margin-bottom: 1.8em !important;
+			}
+
+			.hero-bio {
+				font-size: 1.1em;
+				line-height: 1.7;
+				text-align: justify;
+				color: rgba(255, 255, 255, 0.9) !important;
+			}
+
+			/* Estilo do Botão Download do CV */
+			.hero-text .button.primary {
+				background-color: transparent !important;
+				color: #ffffff !important;
+				border: 2px solid #ffffff !important;
 				box-shadow: none !important;
+				margin-top: 2.5em;
+				display: inline-flex;
+				align-items: center;
+				transition: background-color 0.2s, color 0.2s;
 			}
 
-			#one.gaia-hero .button.primary:hover {
-				background-color: #e1e1e6 !important;
+			.hero-text .button.primary:hover {
+				background-color: #ffffff !important;
+				color: #47624b !important; /* Inverte para o verde oliva ao passar o mouse */
+			}
+
+			/* Responsividade para Celulares */
+			@media screen and (max-width: 980px) {
+				.hero-container {
+					flex-direction: column-reverse;
+					text-align: center;
+					gap: 2em;
+					padding: 2em 1.5em;
+				}
+				.hero-text .hero-bio {
+					text-align: center;
+				}
+				.top-nav ul {
+					gap: 1.2em;
+				}
+				.hero-text h2 {
+					font-size: 2.5em;
+				}
 			}
 		</style>
 	</head>
 	<body class="is-preload">
 
-		<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Lais Borbolato</a></h1>
-					<p>laisborbolato@usp.br</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html" class="active">About me</a></li>
-						<li><a href="research.html">Research</a></li>
-						<li><a href="publications.html">Publications</a></li>
-						<li><a href="outreach.html">Outreach</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-						<i><a href="https://orcid.org/0000-0003-3382-1051" class="fa-brands fa-orcid"><span class="label">Orcid</span></a></i>
-					</ul>
-				</footer>
-			</section>
+		<nav class="top-nav">
+			<ul>
+				<li><a href="index.html" class="active">About me</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="outreach.html">Outreach</a></li>
+			</ul>
+		</nav>
 
 		<div id="wrapper">
+			<div id="main">
 
-				<div id="main">
-
-						<section id="one" class="gaia-hero">
-								<div class="container">
-									<header class="major">
-										<h2>Olá, bem-vindo!</h2>
-										<p>I am <strong>Lais Borbolato</strong>,<br />
-										PhD Candidate at the University of São Paulo in Brasil.</p>
-									</header>
-									<p>I have a degree in Astrophysics from the University of São Paulo (USP) and am currently pursuing my PhD there. My research is part of the Galactic Archaeology field, seeking to understand details about the Milky Way's disk and, from there, reconstruct its history of formation and evolution. In addition to dedicating myself to scientific research, I am a great enthusiast of teaching and outreach projects.</p>
-									
-									<p style="margin-top: 2.5em;">
-										<a href="Files/Curriculo_LaisBorbolato.pdf" class="button primary icon solid fa-download" target="_blank">Download my CV</a>
-									</p>
-								</div>
-							</section>
-
+				<section class="hero-container">
+					
+					<div class="hero-text">
+						<h2>Olá, bem-vindo!</h2>
+						<p class="hero-subtitle">I am <strong>Lais Borbolato</strong>,</p>
+						<p class="hero-institution">PhD Candidate at the University of São Paulo in Brasil.</p>
+						
+						<p class="hero-bio">
+							Galactic Archaeology: A field dedicated to reconstructing the formation and evolution of the Milky Way by examining the current properties of its stars. I have a degree in Astrophysics from the University of São Paulo (USP) and am currently pursuing my PhD there.
+						</p>
+						
+						<a href="Files/Curriculo_LaisBorbolato.pdf" class="button primary icon solid fa-download" target="_blank">Download my CV</a>
 					</div>
+
+					<div class="hero-image-area">
+						<img src="images/avatar.jpg" alt="Lais Borbolato" class="hero-avatar" />
+					</div>
+
+				</section>
+
 			</div>
+		</div>
 
 		<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

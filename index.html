@@ -1,128 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lais Borbolato - Home</title>
-    
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    
-    <style>
-        /* Ajustes específicos para a página inicial */
-        
-        /* 1) Força o fundo escuro com a imagem do Gaia e garante contraste do texto */
-        #wrapper {
-            background: linear-gradient(135px, rgba(15, 15, 20, 0.88) 0%, rgba(25, 25, 35, 0.78) 100%), 
-                        url('images/Interactive_map_of_the_sky_from_Gaia_s_Early_Data_Release_3.png') !important;
-            background-size: cover !important;
-            background-position: center !important;
-            background-attachment: fixed !important;
-            color: #ffffff !important;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            min-height: 100vh;
-        }
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Lais Borbolato - Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<style>
+			/* ESTILOS EXCLUSIVOS PARA O VISUAL HERO COM FUNDO ESCURO */
+			
+			/* 1) Aplica o mapa do Gaia diretamente como fundo do container e força o texto a ficar branco */
+			#one.gaia-hero {
+				background: linear-gradient(135px, rgba(15, 15, 20, 0.88) 0%, rgba(25, 25, 35, 0.78) 100%), 
+							url('images/Interactive_map_of_the_sky_from_Gaia_s_Early_Data_Release_3.png') !important;
+				background-size: cover !important;
+				background-position: center !important;
+				background-attachment: fixed !important;
+				min-height: 100vh;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding: 4em 0 !important;
+			}
 
-        /* Garante que todas as seções internas fiquem transparentes para mostrar o mapa do Gaia */
-        #wrapper > section {
-            background: transparent !important;
-            border: none !important;
-            padding: 4em 4em !important;
-        }
+			/* Garante o contraste de todas as letras contra o fundo estrelado */
+			#one.gaia-hero h2, 
+			#one.gaia-hero p, 
+			#one.gaia-hero p strong,
+			#one.gaia-hero header.major p {
+				color: #ffffff !important;
+			}
 
-        /* Ajustes de cor dos textos para não sumirem no fundo */
-        #wrapper h2, #wrapper p, #wrapper strong {
-            color: #ffffff !important;
-        }
+			/* Suaviza a cor do subtítulo institucional */
+			#one.gaia-hero header.major p {
+				color: #c5c5d2 !important;
+			}
 
-        #wrapper .hero-institution {
-            color: #c5c5d2 !important;
-            font-size: 1.35em;
-            margin-bottom: 2em;
-        }
+			/* Garante que o botão de download fique sólido e com leitura perfeita */
+			#one.gaia-hero .button.primary {
+				background-color: #ffffff !important;
+				color: #111118 !important;
+				box-shadow: none !important;
+			}
 
-        #wrapper .bio-text {
-            color: #e1e1e6 !important;
-            font-size: 1.1em;
-            line-height: 1.7;
-            text-align: justify;
-            max-width: 850px;
-        }
+			#one.gaia-hero .button.primary:hover {
+				background-color: #e1e1e6 !important;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
 
-        /* 2) Customização do Botão de Download (Estilo sólido e visível) */
-        .btn-cv {
-            display: inline-flex;
-            align-items: center;
-            background-color: #ffffff !important;
-            color: #111118 !important;
-            padding: 0.75em 1.5em !important;
-            border-radius: 6px !important;
-            text-decoration: none !important;
-            font-weight: 700 !important;
-            margin-top: 2em;
-            width: fit-content;
-            border: none !important;
-            transition: transform 0.2s;
-        }
+		<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Lais Borbolato</a></h1>
+					<p>laisborbolato@usp.br</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html" class="active">About me</a></li>
+						<li><a href="research.html">Research</a></li>
+						<li><a href="publications.html">Publications</a></li>
+						<li><a href="outreach.html">Outreach</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+						<i><a href="https://orcid.org/0000-0003-3382-1051" class="fa-brands fa-orcid"><span class="label">Orcid</span></a></i>
+					</ul>
+				</footer>
+			</section>
 
-        .btn-cv:hover {
-            background-color: #e1e1e6 !important;
-            transform: translateY(-2px);
-        }
+		<div id="wrapper">
 
-        .btn-cv svg {
-            margin-right: 10px;
-            fill: currentColor;
-            width: 18px;
-            height: 18px;
-        }
-    </style>
-</head>
-<body class="is-preload">
+				<div id="main">
 
-    <div id="wrapper">
-        <section class="main-hero">
-            <div class="inner">
-                <h2>Olá, bem-vindo!</h2>
-                <p style="font-size: 1.75em; margin-bottom: 0.25em;">I am <strong>Lais Borbolato</strong>,</p>
-                <p class="hero-institution">PhD Candidate at the University of São Paulo in Brasil.</p>
-                
-                <p class="bio-text">
-                    I have a degree in Astrophysics from the University of São Paulo (USP) and am currently pursuing my PhD there. My research is part of the Galactic Archaeology field, seeking to understand details about the Milky Way’s disk and, from there, reconstruct its history of formation and evolution. In addition to dedicating myself to scientific research, I am a great enthusiast of teaching and outreach projects.
-                </p>
-                
-                <a href="Files/Curriculo_LaisBorbolato.pdf" class="btn-cv" target="_blank">
-                    <svg viewBox="0 0 24 24">
-                        <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/>
-                    </svg>
-                    Download my CV
-                </a>
-            </div>
-        </section>
-    </div>
+						<section id="one" class="gaia-hero">
+								<div class="container">
+									<header class="major">
+										<h2>Olá, bem-vindo!</h2>
+										<p>I am <strong>Lais Borbolato</strong>,<br />
+										PhD Candidate at the University of São Paulo in Brasil.</p>
+									</header>
+									<p>I have a degree in Astrophysics from the University of São Paulo (USP) and am currently pursuing my PhD there. My research is part of the Galactic Archaeology field, seeking to understand details about the Milky Way's disk and, from there, reconstruct its history of formation and evolution. In addition to dedicating myself to scientific research, I am a great enthusiast of teaching and outreach projects.</p>
+									
+									<p style="margin-top: 2.5em;">
+										<a href="Files/Curriculo_LaisBorbolato.pdf" class="button primary icon solid fa-download" target="_blank">Download my CV</a>
+									</p>
+								</div>
+							</section>
 
-    <section id="sidebar">
-        <div class="inner">
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="active">About me</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="outreach.html">Outreach</a></li>
-                </ul>
-            </nav>
-        </div>
-    </section>
+					</div>
+			</div>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-</body>
+	</body>
 </html>

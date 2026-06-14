@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Link para o arquivo CSS global que você usa em todas as páginas do site -->
-    <!-- Se o seu arquivo tiver outro nome (como styles.css), basta alterar no href abaixo -->
+    <!-- Ele controlará totalmente o menu lateral e o topo mobile sem repetição local -->
     <link rel="stylesheet" href="style.css">
 
     <style>
         /* 
            Configurações exclusivas da Página Inicial:
-           Mantemos todo o fundo verde e aumentamos a letra do escrito branco.
+           Força apenas o fundo verde nesta página e amplia a tipografia branca.
         */
         body, .layout-container {
             background-color: var(--bg-primary, #335238) !important;
@@ -30,15 +30,16 @@
             color: var(--text-white, #ffffff) !important;
         }
 
-        /* Aumentando o tamanho das letras do escrito branco */
+        /* Ampliação significativa das letras brancas para maior impacto visual */
         .greeting-title {
-            font-size: 64px !important; /* Aumentado de 52px para 64px */
+            font-size: 76px !important; /* Aumentado para 76px para destaque premium */
             font-weight: 700;
-            margin-bottom: 20px;
+            line-height: 1.2;
+            margin-bottom: 24px;
         }
 
         .greeting-subtitle {
-            font-size: 28px !important; /* Aumentado de 24px para 28px */
+            font-size: 34px !important; /* Aumentado de 28px para 34px */
             line-height: 1.4;
             margin-bottom: 35px;
             border-left: 4px solid var(--text-white, #ffffff);
@@ -46,8 +47,8 @@
         }
 
         .welcome-desc {
-            font-size: 21px !important; /* Aumentado de 18.5px para 21px */
-            line-height: 1.7;
+            font-size: 24px !important; /* Aumentado de 21px para 24px */
+            line-height: 1.8;
             color: var(--text-muted, #d0ded3) !important;
             margin-bottom: 45px;
             text-align: justify;
@@ -77,19 +78,20 @@
             color: var(--text-white, #ffffff) !important;
         }
 
-        /* Responsividade das fontes para telas menores */
         @media (max-width: 768px) {
             .greeting-title {
-                font-size: 44px !important;
+                font-size: 46px !important; /* Tamanho ajustado e confortável para telas móveis */
+                margin-bottom: 16px;
             }
             .greeting-subtitle {
-                font-size: 22px !important;
+                font-size: 24px !important; /* Ajustado proporcionalmente no mobile */
                 border-left: none;
                 padding-left: 0;
             }
             .welcome-desc {
-                font-size: 18px !important;
-                text-align: center;
+                font-size: 19px !important; /* Ajustado proporcionalmente no mobile */
+                text-align: left;
+                line-height: 1.6;
             }
         }
     </style>

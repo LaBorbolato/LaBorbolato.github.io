@@ -479,6 +479,26 @@ input, select, textarea {
 					padding-top: 4em;
 				}
 
+		/* Adicionando agora */
+		@media (max-width: 768px) {
+    		/* O container do menu precisa ter esses comandos */
+    		nav, .seu-container-do-menu {
+		        display: flex;
+		        flex-wrap: nowrap;       /* Impede que os itens quebrem para a linha de baixo */
+		        overflow-x: auto;        /* Ativa a rolagem horizontal caso falte espaço */
+		        -webkit-overflow-scrolling: touch; /* Deixa a rolagem suave no iPhone/iOS */
+		        padding: 10px;
+		        justify-content: flex-start; /* Alinha os itens ao início */
+    		}
+
+    		/* Garante que os links não encolham e mantenham um tamanho bom */
+    		nav a, .seu-container-do-menu a {
+        		flex: 0 0 auto;          /* Impede o link de esmagar */
+        		padding: 10px 15px;      /* Espaçamento interno */
+        		white-space: nowrap;     /* Impede que o texto do link quebre em 2 linhas */
+    		}
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.row {

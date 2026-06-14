@@ -5,337 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lais Borbolato - Home</title>
     
-    <!-- Importação de Fontes do Google para tipografia acadêmica e refinada -->
+    <!-- Fontes do Google e Ícones (Mantidos para garantir a renderização das fontes e símbolos) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    
-    <!-- Ícones FontAwesome para usabilidade e selos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+    <!-- Link para o arquivo CSS global que você usa em todas as páginas do site -->
+    <!-- Se o seu arquivo tiver outro nome (como styles.css), basta alterar no href abaixo -->
+    <link rel="stylesheet" href="style.css">
+
     <style>
-        :root {
-            --bg-primary: #335238;        /* Verde floresta oficial do seu site */
-            --bg-sidebar: #28402c;        /* Tom de verde levemente mais escuro para profundidade */
-            --text-white: #ffffff;        /* Branco puro para textos principais */
-            --text-muted: #d0ded3;        /* Branco fosco/suave para descrições e subtextos */
-            --btn-bg: #ffffff;            /* Fundo branco do botão de destaque */
-            --btn-text: #335238;          /* Texto verde dentro do botão branco */
-            
-            --font-title: 'Poppins', sans-serif;
-            --font-body: 'Lato', sans-serif;
-            --transition-speed: 0.3s;
+        /* 
+           Configurações exclusivas da Página Inicial:
+           Mantemos todo o fundo verde e aumentamos a letra do escrito branco.
+        */
+        body, .layout-container {
+            background-color: var(--bg-primary, #335238) !important;
         }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: var(--font-body);
-            background-color: var(--bg-primary);
-            color: var(--text-white);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        .layout-container {
-            display: flex;
-            flex-direction: row-reverse; /* Inverte a ordem: Sidebar fica na direita, Conteúdo na esquerda */
-            min-height: 100vh;
-            width: 100vw;
-        }
-
-        /* --- CONTEÚDO PRINCIPAL (Esquerda) --- */
+        /* Força o container principal a ter o fundo verde e texto branco */
         .main-content {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 80px 10%;
-            background-color: var(--bg-primary);
+            background-color: var(--bg-primary, #335238) !important;
+            color: var(--text-white, #ffffff) !important;
         }
 
-        .welcome-box {
-            max-width: 680px;
-            width: 100%;
-        }
-
+        /* Aumentando o tamanho das letras do escrito branco */
         .greeting-title {
-            font-family: var(--font-title);
-            font-size: 52px;
+            font-size: 64px !important; /* Aumentado de 52px para 64px */
             font-weight: 700;
-            color: var(--text-white);
-            margin-bottom: 15px;
-            letter-spacing: -0.5px;
+            margin-bottom: 20px;
         }
 
         .greeting-subtitle {
-            font-size: 24px;
-            font-weight: 400;
-            color: var(--text-muted);
-            margin-bottom: 30px;
-            border-left: 4px solid var(--text-white);
+            font-size: 28px !important; /* Aumentado de 24px para 28px */
+            line-height: 1.4;
+            margin-bottom: 35px;
+            border-left: 4px solid var(--text-white, #ffffff);
             padding-left: 18px;
         }
 
-        .greeting-subtitle strong {
-            color: var(--text-white);
-            font-weight: 700;
-        }
-
         .welcome-desc {
-            font-size: 18.5px;
-            color: var(--text-muted);
-            margin-bottom: 40px;
+            font-size: 21px !important; /* Aumentado de 18.5px para 21px */
+            line-height: 1.7;
+            color: var(--text-muted, #d0ded3) !important;
+            margin-bottom: 45px;
             text-align: justify;
         }
 
-        /* Estilização refinada para links no texto */
+        /* Garante que os links dentro do texto fiquem visíveis no fundo verde */
         .welcome-desc a {
-            color: var(--text-white);
+            color: var(--text-white, #ffffff) !important;
+            border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
             font-weight: 600;
             text-decoration: none;
-            border-bottom: 1.5px solid rgba(255, 255, 255, 0.4);
-            transition: all var(--transition-speed);
         }
 
         .welcome-desc a:hover {
-            border-bottom-color: var(--text-white);
-            opacity: 0.9;
+            border-bottom-color: var(--text-white, #ffffff);
         }
 
+        /* Estilo do botão de CV adaptado para contraste no fundo verde */
         .btn-cv {
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            background-color: var(--btn-bg);
-            color: var(--btn-text);
-            text-decoration: none;
-            padding: 16px 32px;
-            border-radius: 8px;
-            font-family: var(--font-title);
-            font-size: 16px;
-            font-weight: 600;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-            transition: all var(--transition-speed) ease;
-            border: 2px solid var(--btn-bg);
+            background-color: var(--btn-bg, #ffffff) !important;
+            color: var(--btn-text, #335238) !important;
+            border: 2px solid var(--btn-bg, #ffffff) !important;
         }
 
         .btn-cv:hover {
-            background-color: transparent;
-            color: var(--text-white);
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(255, 255, 255, 0.1);
+            background-color: transparent !important;
+            color: var(--text-white, #ffffff) !important;
         }
 
-        /* --- SIDEBAR LATERAL (Direita) --- */
-        .sidebar {
-            width: 320px;
-            background-color: var(--bg-sidebar);
-            color: var(--text-white);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 60px 0 40px 0;
-            position: sticky;
-            top: 0;
-            height: 100vh;
-            border-left: 1px solid rgba(255, 255, 255, 0.08);
-        }
-
-        /* Foto de Perfil no Topo do Menu */
-        .profile-container {
-            text-align: center;
-            margin-bottom: 45px;
-            padding: 0 25px;
-        }
-
-        .profile-pic {
-            width: 135px;
-            height: 135px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid rgba(255, 255, 255, 0.25);
-            margin-bottom: 18px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        }
-
-        .profile-name {
-            font-family: var(--font-title);
-            font-size: 25px;
-            font-weight: 600;
-            color: var(--text-white);
-            margin-bottom: 4px;
-        }
-
-        .profile-email {
-            font-size: 13.5px;
-            font-style: italic;
-            color: var(--text-muted);
-            text-decoration: none;
-            transition: color var(--transition-speed);
-        }
-
-        .profile-email:hover {
-            color: var(--text-white);
-        }
-
-        /* Links de Navegação Vertical */
-        .nav-menu {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .nav-item {
-            width: 100%;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-        }
-
-        .nav-item:first-child {
-            border-top: 1px solid rgba(255, 255, 255, 0.06);
-        }
-
-        .nav-link {
-            display: block;
-            padding: 18px 30px;
-            color: var(--text-muted);
-            text-decoration: none;
-            font-family: var(--font-title);
-            font-size: 16px;
-            font-weight: 500;
-            text-align: center;
-            transition: all var(--transition-speed) ease;
-        }
-
-        .nav-link:hover {
-            background-color: rgba(255, 255, 255, 0.05);
-            color: var(--text-white);
-        }
-
-        .nav-link.active {
-            background-color: rgba(255, 255, 255, 0.1);
-            color: var(--text-white);
-            font-weight: 600;
-        }
-
-        /* Rodapé com Logo ORCID */
-        .sidebar-footer {
-            margin-top: auto;
-            padding: 25px 0 0;
-            text-align: center;
-        }
-
-        .orcid-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--text-white);
-            text-decoration: none;
-            font-size: 14px;
-            opacity: 0.8;
-            transition: opacity var(--transition-speed);
-        }
-
-        .orcid-link:hover {
-            opacity: 1;
-        }
-
-        /* --- HEADER MOBILE (Exclusivo para Celulares) --- */
-        .mobile-header {
-            display: none; /* Escondido por padrão em telas grandes */
-        }
-
-        /* --- RESPONSIVIDADE (Telas de Celulares e Tablets) --- */
+        /* Responsividade das fontes para telas menores */
         @media (max-width: 768px) {
-            .layout-container {
-                flex-direction: column; /* No mobile, o conteúdo empilha verticalmente */
-            }
-
-            /* Ativa o cabeçalho fixo no topo do celular, sem duplicar com a barra preta antiga */
-            .mobile-header {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                background-color: var(--bg-sidebar);
-                color: var(--text-white);
-                padding: 16px 24px;
-                position: sticky;
-                top: 0;
-                z-index: 1000;
-                box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-                border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-            }
-
-            .mobile-title {
-                font-family: var(--font-title);
-                font-size: 19px;
-                font-weight: 600;
-                letter-spacing: 0.5px;
-            }
-
-            .mobile-menu-btn {
-                background: none;
-                border: none;
-                color: var(--text-white);
-                font-size: 24px;
-                cursor: pointer;
-                transition: transform var(--transition-speed);
-                padding: 4px;
-            }
-
-            /* Transforma a Sidebar em uma Gaveta Deslizante Lateral (Drawer) de alto desempenho */
-            .sidebar {
-                width: 280px;
-                height: calc(100vh - 61px);
-                position: fixed;
-                top: 61px;
-                right: -280px; /* Esconde à direita da tela */
-                z-index: 999;
-                box-shadow: -4px 0 15px rgba(0,0,0,0.2);
-                transition: right 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
-            }
-
-            /* Quando o menu mobile estiver aberto */
-            .sidebar.active {
-                right: 0; /* Desliza suavemente para dentro da tela */
-            }
-
-            /* Área de conteúdo centralizado no celular */
-            .main-content {
-                padding: 60px 24px;
-                text-align: center;
-            }
-
             .greeting-title {
-                font-size: 38px;
+                font-size: 44px !important;
             }
-
             .greeting-subtitle {
-                font-size: 19px;
+                font-size: 22px !important;
                 border-left: none;
                 padding-left: 0;
-                margin-bottom: 25px;
             }
-
             .welcome-desc {
-                font-size: 16px;
+                font-size: 18px !important;
                 text-align: center;
-            }
-
-            .btn-cv {
-                width: 100%; /* Botão largo para toque fácil e confortável */
-                justify-content: center;
             }
         }
     </style>
 </head>
 <body>
 
-    <!-- Cabeçalho Mobile Oficial (Aparece apenas em celulares) -->
+    <!-- Cabeçalho Mobile (Sempre herdando os estilos do seu CSS principal) -->
     <header class="mobile-header">
         <span class="mobile-title">Lais Borbolato</span>
         <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir Menu">
@@ -344,48 +105,6 @@
     </header>
 
     <div class="layout-container">
-
-        <!-- Sidebar Lateral (Menu Fixo à Direita) -->
-        <aside class="sidebar" id="sidebar">
-            
-            <!-- Foto de Perfil e Info de Contato -->
-            <div class="profile-container">
-                <!-- Fallback automático caso a foto ainda esteja sendo carregada ou não encontrada -->
-                <img src="images/photo.jpg" alt="Lais Borbolato" class="profile-pic" onerror="this.onerror=null;this.src='https://placehold.co/150x150/335238/ffffff?text=Lais';">
-                <h1 class="profile-name">Lais Borbolato</h1>
-                <a href="mailto:laisborbolato@usp.br" class="profile-email">laisborbolato@usp.br</a>
-            </div>
-
-            <!-- Links de Navegação Vertical -->
-            <nav class="nav-menu">
-                <div class="nav-item">
-                    <a href="index.html" class="nav-link active">Home</a>
-                </div>
-                <div class="nav-item">
-                    <a href="research.html" class="nav-link">Research</a>
-                </div>
-                <div class="nav-item">
-                    <a href="publications.html" class="nav-link">Publications</a>
-                </div>
-                <div class="nav-item">
-                    <a href="outreach.html" class="nav-link">Outreach</a>
-                </div>
-                <div class="nav-item">
-                    <a href="astro-ph.html" class="nav-link">Astro-ph</a>
-                </div>
-            </nav>
-
-            <!-- Selo Oficial do ORCID no Rodapé -->
-            <div class="sidebar-footer">
-                <a href="https://orcid.org/0000-0003-1269-7282" target="_blank" class="orcid-link" aria-label="Acessar perfil do ORCID">
-                    <svg class="orcid-icon" viewBox="0 0 256 256" style="fill: #ffffff; width: 18px; height: 18px;" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M256,128c0,70.7-57.3,128-128,128S0,198.7,0,128S57.3,0,128,0S256,57.3,256,128z M87,175.7c2.3,0,4.1-1.8,4.1-4.1V83.9c0-2.3-1.8-4.1-4.1-4.1H76.8c-2.3,0-4.1,1.8-4.1,4.1v87.7c0,2.3,1.8,4.1,4.1,4.1H87z M71.3,64.2c0,4.6,3.7,8.3,8.3,8.3s8.3-3.7,8.3-8.3s-3.7-8.3-8.3-8.3S71.3,59.6,71.3,64.2z M157.9,114.7c0-21.3-17.3-35.4-44.4-35.4H98.9c-2.3,0-4.1,1.8-4.1,4.1v87.7c0,2.3,1.8,4.1,4.1,4.1h15c2.3,0,4.1-1.8,4.1-4.1V139h0.7c3.1,4.9,7.6,9.1,13.7,11.7s12.9,3.9,20,3.9c25,0,44.9-18,44.9-46.6C197.3,114.7,157.9,114.7,157.9,114.7z M152.1,114.7c0,16.5-11.4,26.4-28.1,26.4h-10.7V88.8h10.7C140.7,88.8,152.1,98.6,152.1,114.7z"/>
-                    </svg>
-                    <span>ORCID ID</span>
-                </a>
-            </div>
-
-        </aside>
 
         <!-- Conteúdo Principal da Página (Esquerda, Fundo Verde) -->
         <main class="main-content">
@@ -400,7 +119,6 @@
                     My research in Galactic Archaeology focuses on understanding the formation, evolution, and structure of the Milky Way disk. I am also an enthusiast of teaching and science outreach. Contact me at <a href="mailto:laisborbolato@usp.br">laisborbolato@usp.br</a>.
                 </p>
 
-                <!-- Botão de Download do seu CV, com as cores invertidas de forma harmônica -->
                 <a href="assets/cv.pdf" class="btn-cv" download>
                     <i class="fa-solid fa-download"></i>
                     <span>Download my CV</span>
@@ -408,43 +126,83 @@
             </div>
         </main>
 
+        <!-- Sidebar Lateral (Direita - Estrutura idêntica às outras páginas do site) -->
+        <aside class="sidebar" id="sidebar">
+            
+            <div class="profile-container">
+                <img src="images/avatar.jpg" alt="Lais Borbolato" class="profile-pic" onerror="this.onerror=null;this.src='https://placehold.co/150x150/335238/ffffff?text=Lais';">
+                <h1 class="profile-name">Lais Borbolato</h1>
+                <a href="mailto:laisborbolato@usp.br" class="profile-email">laisborbolato@usp.br</a>
+            </div>
+
+            <nav class="nav-menu">
+                <div class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </div>
+                <div class="nav-item">
+                    <a href="research.html" class="nav-link">Research</a>
+                </div>
+                <div class="nav-item">
+                    <a href="publications.html" class="nav-link">Publications</a>
+                </div>
+                <div class="nav-item">
+                    <a href="outreach.html" class="nav-link">Outreach</a>
+                </div>
+                <div class="nav-item">
+                    <a href="papers.html" class="nav-link">Astro-ph</a>
+                </div>
+            </nav>
+
+            <div class="sidebar-footer">
+                <a href="https://orcid.org/0000-0003-1269-7282" target="_blank" class="orcid-link" aria-label="Acessar perfil do ORCID">
+                    <svg class="orcid-icon" viewBox="0 0 256 256" style="fill: #ffffff; width: 18px; height: 18px;" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M256,128c0,70.7-57.3,128-128,128S0,198.7,0,128S57.3,0,128,0S256,57.3,256,128z M87,175.7c2.3,0,4.1-1.8,4.1-4.1V83.9c0-2.3-1.8-4.1-4.1-4.1H76.8c-2.3,0-4.1,1.8-4.1,4.1v87.7c0,2.3,1.8,4.1,4.1,4.1H87z M71.3,64.2c0,4.6,3.7,8.3,8.3,8.3s8.3-3.7,8.3-8.3s-3.7-8.3-8.3-8.3S71.3,59.6,71.3,64.2z M157.9,114.7c0-21.3-17.3-35.4-44.4-35.4H98.9c-2.3,0-4.1,1.8-4.1,4.1v87.7c0,2.3,1.8,4.1,4.1,4.1h15c2.3,0,4.1-1.8,4.1-4.1V139h0.7c3.1,4.9,7.6,9.1,13.7,11.7s12.9,3.9,20,3.9c25,0,44.9-18,44.9-46.6C197.3,114.7,157.9,114.7,157.9,114.7z M152.1,114.7c0,16.5-11.4,26.4-28.1,26.4h-10.7V88.8h10.7C140.7,88.8,152.1,98.6,152.1,114.7z"/>
+                    </svg>
+                    <span>ORCID ID</span>
+                </a>
+            </div>
+
+        </aside>
+
     </div>
 
-    <!-- Script leve e nativo para controle da gaveta de menu do mobile -->
+    <!-- Script padrão de controle do menu mobile (compatível com os seletores padrões) -->
     <script>
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
         const sidebar = document.getElementById('sidebar');
 
-        // Abre/Fecha a gaveta ao clicar no botão hambúrguer
-        mobileMenuBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            sidebar.classList.toggle('active');
-            
-            // Alterna os ícones entre Hambúrguer (bars) e Fechar (xmark)
-            const icon = mobileMenuBtn.querySelector('i');
-            if (sidebar.classList.contains('active')) {
-                icon.className = 'fa-solid fa-xmark';
-            } else {
-                icon.className = 'fa-solid fa-bars';
-            }
-        });
-
-        // Fecha a gaveta automaticamente ao clicar fora dela
-        document.addEventListener('click', (e) => {
-            if (sidebar.classList.contains('active') && !sidebar.contains(e.target) && e.target !== mobileMenuBtn) {
-                sidebar.classList.remove('active');
-                mobileMenuBtn.querySelector('i').className = 'fa-solid fa-bars';
-            }
-        });
-
-        // Fecha o menu lateral automaticamente ao clicar em qualquer link interno
-        const navLinks = document.querySelectorAll('.nav-link');
-        navLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                sidebar.classList.remove('active');
-                mobileMenuBtn.querySelector('i').className = 'fa-solid fa-bars';
+        if (mobileMenuBtn && sidebar) {
+            mobileMenuBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                sidebar.classList.toggle('active');
+                
+                const icon = mobileMenuBtn.querySelector('i');
+                if (icon) {
+                    if (sidebar.classList.contains('active')) {
+                        icon.className = 'fa-solid fa-xmark';
+                    } else {
+                        icon.className = 'fa-solid fa-bars';
+                    }
+                }
             });
-        });
+
+            document.addEventListener('click', (e) => {
+                if (sidebar.classList.contains('active') && !sidebar.contains(e.target) && e.target !== mobileMenuBtn) {
+                    sidebar.classList.remove('active');
+                    const icon = mobileMenuBtn.querySelector('i');
+                    if (icon) icon.className = 'fa-solid fa-bars';
+                }
+            });
+
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    sidebar.classList.remove('active');
+                    const icon = mobileMenuBtn.querySelector('i');
+                    if (icon) icon.className = 'fa-solid fa-bars';
+                });
+            });
+        }
     </script>
 </body>
 </html>

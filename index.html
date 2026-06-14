@@ -1,210 +1,217 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lais Borbolato - Home</title>
-    
-    <!-- Fontes do Google e Ícones (Mantidos para garantir a renderização das fontes e símbolos) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Lais Borbolato - Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Importa o CSS compartilhado padrão de todas as páginas -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Font Awesome para ícones modernos (como o do CV e ORCID) -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Link para o arquivo CSS global que você usa em todas as páginas do site -->
-    <!-- Ele controlará totalmente o menu lateral e o topo mobile sem repetição local -->
-    <link rel="stylesheet" href="style.css">
+		<style>
+			/* 
+			   Estilos específicos para a Página Inicial (index.html):
+			   Força o fundo verde apenas nesta página e aumenta o tamanho do texto.
+			*/
+			body, #wrapper, #main, #main > section, #footer {
+				background-color: #335238 !important;
+				color: #ffffff !important;
+			}
 
-    <style>
-        /* 
-           Configurações exclusivas da Página Inicial:
-           Força apenas o fundo verde nesta página e amplia a tipografia branca.
-        */
-        body, .layout-container {
-            background-color: var(--bg-primary, #335238) !important;
-        }
+			/* Garante o contraste dos textos e cabeçalhos no fundo verde */
+			#main h1, #main h2, #main h3, #main h4, #main strong {
+				color: #ffffff !important;
+			}
 
-        /* Força o container principal a ter o fundo verde e texto branco */
-        .main-content {
-            background-color: var(--bg-primary, #335238) !important;
-            color: var(--text-white, #ffffff) !important;
-        }
+			#main p {
+				color: #d0ded3 !important; /* Branco esverdeado suave para conforto visual */
+			}
 
-        /* Ampliação significativa das letras brancas para maior impacto visual */
-        .greeting-title {
-            font-size: 76px !important; /* Aumentado para 76px para destaque premium */
-            font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 24px;
-        }
+			/* Configuração das fontes ampliadas para grande destaque e leitura premium */
+			.greeting-title {
+				font-size: 82px !important; /* Letras super destacadas e elegantes */
+				font-weight: 700 !important;
+				line-height: 1.2 !important;
+				margin-bottom: 24px !important;
+				color: #ffffff !important;
+				letter-spacing: -1px;
+			}
 
-        .greeting-subtitle {
-            font-size: 34px !important; /* Aumentado de 28px para 34px */
-            line-height: 1.4;
-            margin-bottom: 35px;
-            border-left: 4px solid var(--text-white, #ffffff);
-            padding-left: 18px;
-        }
+			.greeting-subtitle {
+				font-size: 36px !important; /* Subtítulo grande e de fácil leitura */
+				line-height: 1.4 !important;
+				margin-bottom: 35px !important;
+				border-left: 4px solid #ffffff !important;
+				padding-left: 18px !important;
+				color: #ffffff !important;
+			}
 
-        .welcome-desc {
-            font-size: 24px !important; /* Aumentado de 21px para 24px */
-            line-height: 1.8;
-            color: var(--text-muted, #d0ded3) !important;
-            margin-bottom: 45px;
-            text-align: justify;
-        }
+			.welcome-desc {
+				font-size: 26px !important; /* Texto descritivo ampliado para destaque */
+				line-height: 1.8 !important;
+				color: #d0ded3 !important;
+				margin-bottom: 45px !important;
+				text-align: justify !important;
+			}
 
-        /* Garante que os links dentro do texto fiquem visíveis no fundo verde */
-        .welcome-desc a {
-            color: var(--text-white, #ffffff) !important;
-            border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
-            font-weight: 600;
-            text-decoration: none;
-        }
+			/* Links de e-mail ou referências no texto */
+			.welcome-desc a {
+				color: #ffffff !important;
+				border-bottom: 1.5px solid rgba(255, 255, 255, 0.5) !important;
+				font-weight: 600 !important;
+				text-decoration: none !important;
+				transition: border-color 0.2s ease;
+			}
 
-        .welcome-desc a:hover {
-            border-bottom-color: var(--text-white, #ffffff);
-        }
+			.welcome-desc a:hover {
+				border-bottom-color: #ffffff !important;
+			}
 
-        /* Estilo do botão de CV adaptado para contraste no fundo verde */
-        .btn-cv {
-            background-color: var(--btn-bg, #ffffff) !important;
-            color: var(--btn-text, #335238) !important;
-            border: 2px solid var(--btn-bg, #ffffff) !important;
-        }
+			/* Botão de download do currículo adaptado para contraste premium */
+			.btn-cv {
+				display: inline-flex;
+				align-items: center;
+				background-color: #ffffff !important;
+				color: #335238 !important;
+				padding: 14px 36px !important;
+				font-size: 20px !important;
+				font-weight: 600 !important;
+				border-radius: 8px !important;
+				text-decoration: none !important;
+				border: 2px solid #ffffff !important;
+				transition: all 0.3s ease !important;
+				box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+			}
 
-        .btn-cv:hover {
-            background-color: transparent !important;
-            color: var(--text-white, #ffffff) !important;
-        }
+			.btn-cv i {
+				margin-right: 12px !important;
+				font-size: 20px !important;
+			}
 
-        @media (max-width: 768px) {
-            .greeting-title {
-                font-size: 46px !important; /* Tamanho ajustado e confortável para telas móveis */
-                margin-bottom: 16px;
-            }
-            .greeting-subtitle {
-                font-size: 24px !important; /* Ajustado proporcionalmente no mobile */
-                border-left: none;
-                padding-left: 0;
-            }
-            .welcome-desc {
-                font-size: 19px !important; /* Ajustado proporcionalmente no mobile */
-                text-align: left;
-                line-height: 1.6;
-            }
-        }
-    </style>
-</head>
-<body>
+			.btn-cv:hover {
+				background-color: transparent !important;
+				color: #ffffff !important;
+			}
 
-    <!-- Cabeçalho Mobile (Sempre herdando os estilos do seu CSS principal) -->
-    <header class="mobile-header">
-        <span class="mobile-title">Lais Borbolato</span>
-        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir Menu">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-    </header>
+			.btn-cv:hover i {
+				color: #ffffff !important;
+			}
 
-    <div class="layout-container">
+			/* Corretor de cor para o copyright do rodapé */
+			#footer .copyright li {
+				color: rgba(255, 255, 255, 0.5) !important;
+				border-left-color: rgba(255, 255, 255, 0.2) !important;
+			}
 
-        <!-- Conteúdo Principal da Página (Esquerda, Fundo Verde) -->
-        <main class="main-content">
-            <div class="welcome-box">
-                <h2 class="greeting-title">Olá, bem-vindo!</h2>
-                
-                <p class="greeting-subtitle">
-                    I am <strong>Lais Borbolato</strong>, PhD Candidate at the Universidade de São Paulo.
-                </p>
-                
-                <p class="welcome-desc">
-                    My research in Galactic Archaeology focuses on understanding the formation, evolution, and structure of the Milky Way disk. I am also an enthusiast of teaching and science outreach. Contact me at <a href="mailto:laisborbolato@usp.br">laisborbolato@usp.br</a>.
-                </p>
+			#footer .copyright a {
+				color: #ffffff !important;
+			}
 
-                <a href="assets/cv.pdf" class="btn-cv" download>
-                    <i class="fa-solid fa-download"></i>
-                    <span>Download my CV</span>
-                </a>
-            </div>
-        </main>
+			/* Ajuste responsivo automático para que as letras diminuam confortavelmente em celulares */
+			@media screen and (max-width: 736px) {
+				.greeting-title {
+					font-size: 46px !important;
+					margin-bottom: 16px !important;
+				}
+				.greeting-subtitle {
+					font-size: 24px !important;
+					border-left: none !important;
+					padding-left: 0 !important;
+				}
+				.welcome-desc {
+					font-size: 19px !important;
+					text-align: left !important;
+					line-height: 1.6 !important;
+				}
+				.btn-cv {
+					width: 100% !important;
+					justify-content: center !important;
+					font-size: 18px !important;
+				}
+			}
+		</style>
+	</head>
+	<body class="is-preload">
 
-        <!-- Sidebar Lateral (Direita - Estrutura idêntica às outras páginas do site) -->
-        <aside class="sidebar" id="sidebar">
-            
-            <div class="profile-container">
-                <img src="images/avatar.jpg" alt="Lais Borbolato" class="profile-pic" onerror="this.onerror=null;this.src='https://placehold.co/150x150/335238/ffffff?text=Lais';">
-                <h1 class="profile-name">Lais Borbolato</h1>
-                <a href="mailto:laisborbolato@usp.br" class="profile-email">laisborbolato@usp.br</a>
-            </div>
+		<!-- Header (Menu lateral idêntico ao das outras páginas, herdando 100% do style original) -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="Lais Borbolato" /></span>
+					<h1 id="logo"><a href="index.html">Lais Borbolato</a></h1>
+					<p>laisborbolato@usp.br</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="research.html">Research</a></li> 
+						<li><a href="publications.html">Publications</a></li>
+						<li><a href="outreach.html">Outreach</a></li>
+						<li><a href="papers.html">Astro-ph</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+						<li><a href="https://orcid.org/0000-0003-3382-1051" target="_blank" class="icon brands fa-orcid"><span class="label">Orcid</span></a></li>
+					</ul>
+				</footer>
+			</section>
 
-            <nav class="nav-menu">
-                <div class="nav-item">
-                    <a href="index.html" class="nav-link active">Home</a>
-                </div>
-                <div class="nav-item">
-                    <a href="research.html" class="nav-link">Research</a>
-                </div>
-                <div class="nav-item">
-                    <a href="publications.html" class="nav-link">Publications</a>
-                </div>
-                <div class="nav-item">
-                    <a href="outreach.html" class="nav-link">Outreach</a>
-                </div>
-                <div class="nav-item">
-                    <a href="papers.html" class="nav-link">Astro-ph</a>
-                </div>
-            </nav>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-            <div class="sidebar-footer">
-                <a href="https://orcid.org/0000-0003-1269-7282" target="_blank" class="orcid-link" aria-label="Acessar perfil do ORCID">
-                    <svg class="orcid-icon" viewBox="0 0 256 256" style="fill: #ffffff; width: 18px; height: 18px;" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M256,128c0,70.7-57.3,128-128,128S0,198.7,0,128S57.3,0,128,0S256,57.3,256,128z M87,175.7c2.3,0,4.1-1.8,4.1-4.1V83.9c0-2.3-1.8-4.1-4.1-4.1H76.8c-2.3,0-4.1,1.8-4.1,4.1v87.7c0,2.3,1.8,4.1,4.1,4.1H87z M71.3,64.2c0,4.6,3.7,8.3,8.3,8.3s8.3-3.7,8.3-8.3s-3.7-8.3-8.3-8.3S71.3,59.6,71.3,64.2z M157.9,114.7c0-21.3-17.3-35.4-44.4-35.4H98.9c-2.3,0-4.1,1.8-4.1,4.1v87.7c0,2.3,1.8,4.1,4.1,4.1h15c2.3,0,4.1-1.8,4.1-4.1V139h0.7c3.1,4.9,7.6,9.1,13.7,11.7s12.9,3.9,20,3.9c25,0,44.9-18,44.9-46.6C197.3,114.7,157.9,114.7,157.9,114.7z M152.1,114.7c0,16.5-11.4,26.4-28.1,26.4h-10.7V88.8h10.7C140.7,88.8,152.1,98.6,152.1,114.7z"/>
-                    </svg>
-                    <span>ORCID ID</span>
-                </a>
-            </div>
+				<!-- Main Content -->
+					<div id="main">
+						
+						<!-- Welcome Section (Completamente Verde com Letras Grandes Brancas) -->
+							<section id="welcome">
+								<div class="container">
+									
+									<h2 class="greeting-title">Olá, bem-vindo!</h2>
+									
+									<p class="greeting-subtitle">
+										I am <strong>Lais Borbolato</strong>, PhD Candidate at the Universidade de São Paulo.
+									</p>
+									
+									<p class="welcome-desc">
+										My research in Galactic Archaeology focuses on understanding the formation, evolution, and structure of the Milky Way disk. I am also an enthusiast of teaching and science outreach. Contact me at <a href="mailto:laisborbolato@usp.br">laisborbolato@usp.br</a>.
+									</p>
 
-        </aside>
+									<a href="assets/cv.pdf" class="btn-cv" download>
+										<i class="fa-solid fa-download"></i>
+										<span>Download my CV</span>
+									</a>
 
-    </div>
+								</div>
+							</section>
 
-    <!-- Script padrão de controle do menu mobile (compatível com os seletores padrões) -->
-    <script>
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const sidebar = document.getElementById('sidebar');
+					</div>
 
-        if (mobileMenuBtn && sidebar) {
-            mobileMenuBtn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                sidebar.classList.toggle('active');
-                
-                const icon = mobileMenuBtn.querySelector('i');
-                if (icon) {
-                    if (sidebar.classList.contains('active')) {
-                        icon.className = 'fa-solid fa-xmark';
-                    } else {
-                        icon.className = 'fa-solid fa-bars';
-                    }
-                }
-            });
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Lais Borbolato. All rights reserved.</li><li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
 
-            document.addEventListener('click', (e) => {
-                if (sidebar.classList.contains('active') && !sidebar.contains(e.target) && e.target !== mobileMenuBtn) {
-                    sidebar.classList.remove('active');
-                    const icon = mobileMenuBtn.querySelector('i');
-                    if (icon) icon.className = 'fa-solid fa-bars';
-                }
-            });
+			</div>
 
-            const navLinks = document.querySelectorAll('.nav-link');
-            navLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                    sidebar.classList.remove('active');
-                    const icon = mobileMenuBtn.querySelector('i');
-                    if (icon) icon.className = 'fa-solid fa-bars';
-                });
-            });
-        }
-    </script>
-</body>
+		<!-- Scripts (Essenciais para o funcionamento do menu mobile do seu template) -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>

@@ -15,52 +15,59 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 		<style>
-			/* 
-			   Estilos específicos para a Página Inicial (index.html):
-			   Força o fundo verde apenas nesta página e aumenta o tamanho do texto.
-			*/
-			body, #wrapper, #main, #main > section, #footer {
-				background-color: #335238 !important;
+			/* Configuração do fundo com a imagem da Via Láctea + JWST */
+			body, #wrapper, #main, #footer {
+				background-color: #0b0d12 !important;
 				color: #ffffff !important;
 			}
-
-			/* Garante o contraste dos textos e cabeçalhos no fundo verde */
+		
+			#welcome {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/header-bg.jpg") !important;
+				background-size: cover !important;
+				background-position: center center !important;
+				background-repeat: no-repeat !important;
+				padding: 6em 0 !important;
+			}
+		
+			/* Contraste dos textos e cabeçalhos */
 			#main h1, #main h2, #main h3, #main h4, #main strong {
 				color: #ffffff !important;
 			}
-
+		
 			#main p {
-				color: #d0ded3 !important; /* Branco esverdeado suave para conforto visual */
+				color: #e2e8f0 !important;
 			}
-
-			/* Configuração das fontes ampliadas para grande destaque e leitura premium */
+		
+			/* Fontes ampliadas para destaque */
 			.greeting-title {
-				font-size: 82px !important; /* Letras super destacadas e elegantes */
+				font-size: 82px !important;
 				font-weight: 700 !important;
 				line-height: 1.2 !important;
 				margin-bottom: 24px !important;
 				color: #ffffff !important;
 				letter-spacing: -1px;
+				text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
 			}
-
+		
 			.greeting-subtitle {
-				font-size: 36px !important; /* Subtítulo grande e de fácil leitura */
+				font-size: 36px !important;
 				line-height: 1.4 !important;
 				margin-bottom: 35px !important;
 				border-left: 4px solid #ffffff !important;
 				padding-left: 18px !important;
 				color: #ffffff !important;
+				text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 			}
-
+		
 			.welcome-desc {
-				font-size: 26px !important; /* Texto descritivo ampliado para destaque */
+				font-size: 26px !important;
 				line-height: 1.8 !important;
-				color: #d0ded3 !important;
+				color: #e2e8f0 !important;
 				margin-bottom: 45px !important;
 				text-align: justify !important;
+				text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 			}
-
-			/* Links de e-mail ou referências no texto */
+		
 			.welcome-desc a {
 				color: #ffffff !important;
 				border-bottom: 1.5px solid rgba(255, 255, 255, 0.5) !important;
@@ -68,17 +75,17 @@
 				text-decoration: none !important;
 				transition: border-color 0.2s ease;
 			}
-
+		
 			.welcome-desc a:hover {
 				border-bottom-color: #ffffff !important;
 			}
-
-			/* Botão de download do currículo adaptado para contraste premium */
+		
+			/* Botão de download do CV */
 			.btn-cv {
 				display: inline-flex;
 				align-items: center;
 				background-color: #ffffff !important;
-				color: #335238 !important;
+				color: #0b0d12 !important;
 				padding: 14px 36px !important;
 				font-size: 20px !important;
 				font-weight: 600 !important;
@@ -86,34 +93,33 @@
 				text-decoration: none !important;
 				border: 2px solid #ffffff !important;
 				transition: all 0.3s ease !important;
-				box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+				box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
 			}
-
+		
 			.btn-cv i {
 				margin-right: 12px !important;
 				font-size: 20px !important;
 			}
-
+		
 			.btn-cv:hover {
 				background-color: transparent !important;
 				color: #ffffff !important;
 			}
-
+		
 			.btn-cv:hover i {
 				color: #ffffff !important;
 			}
-
-			/* Corretor de cor para o copyright do rodapé */
+		
 			#footer .copyright li {
 				color: rgba(255, 255, 255, 0.5) !important;
 				border-left-color: rgba(255, 255, 255, 0.2) !important;
 			}
-
+		
 			#footer .copyright a {
 				color: #ffffff !important;
 			}
-
-			/* Ajuste responsivo automático para que as letras diminuam confortavelmente em celulares */
+		
+			/* Responsividade para dispositivos móveis */
 			@media screen and (max-width: 736px) {
 				.greeting-title {
 					font-size: 46px !important;

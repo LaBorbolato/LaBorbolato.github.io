@@ -369,6 +369,26 @@
    "added": "2025-08-01"
   },
   {
+   "title": "Stellar streams in the Gaia era",
+   "authors": "Bonaca & Price-Whelan",
+   "year": "2025",
+   "pubdate": "2025-06-01",
+   "url": "https://doi.org/10.1016/j.newar.2024.101713",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2025NewAR.10001713B/abstract",
+   "arxiv": "2405.19410",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1016/j.newar.2024.101713",
+    "10.48550/arXiv.2405.19410",
+    "2024arXiv240519410B",
+    "2025NewAR.10001713B",
+    "arXiv:2405.19410"
+   ],
+   "added": "2026-11-23"
+  },
+  {
    "title": "Rising from the Ashes. II. The Bar-driven Abundance Bimodality of the Milky Way",
    "authors": "Beane et al.",
    "year": "2025",
@@ -388,6 +408,26 @@
     "arXiv:2410.21580"
    ],
    "added": "2025-06-01"
+  },
+  {
+   "title": "Milky Way dynamics in light of Gaia",
+   "authors": "Hunt & Vasiliev",
+   "year": "2025",
+   "pubdate": "2025-06-01",
+   "url": "https://doi.org/10.1016/j.newar.2024.101721",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2025NewAR.10001721H/abstract",
+   "arxiv": "2501.04075",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1016/j.newar.2024.101721",
+    "10.48550/arXiv.2501.04075",
+    "2025NewAR.10001721H",
+    "2025arXiv250104075H",
+    "arXiv:2501.04075"
+   ],
+   "added": "2026-11-23"
   },
   {
    "title": "The formation and survival of the Milky Way's oldest stellar disk",

@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 9 * * *"   # todo dia às 06:00 (horário de Brasília)
   push:
-    branches: [main]      # troque para [master] se o seu branch principal tiver esse nome
+    branches: [main]
   workflow_dispatch:      # botão "Run workflow" na aba Actions
 
 permissions:
@@ -17,11 +17,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  # Parte 1: busca os papers no ADS e prepara o site
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -50,10 +48,18 @@ jobs:
 
       - uses: actions/configure-pages@v5
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: .
 
+  # Parte 2: publica (fica num job separado para o GitHub encontrar o site preparado na parte 1)
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Publicar no GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

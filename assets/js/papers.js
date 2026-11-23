@@ -12,8 +12,8 @@
 
   var DATA_URL = "data/papers.json";
   var CATEGORIES = {
-    formation: { label: "Milky Way Formation", page: "MWformation_papers.html" },
-    structure: { label: "Milky Way Structure", page: "MWStructure_papers.html" },
+    reviews: { label: "Reviews", page: "Reviews_papers.html" },
+    formation_structure: { label: "Milky Way Structure and Formation", page: "MWStructure_papers.html" },
     chemical: { label: "Chemical Evolution and Stellar Abundances", page: "ChemicalEvolution_papers.html" },
     firststars: { label: "First Stars", page: "FirstStars_papers.html" }
   };

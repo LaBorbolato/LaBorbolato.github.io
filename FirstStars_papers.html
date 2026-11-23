@@ -26,7 +26,7 @@
         				<li><a href="research.html">Research</a></li> 
         				<li><a href="publications.html">Publications</a></li>
         				<li><a href="outreach.html">Outreach</a></li>
-                <li><a href="papers.html">Astro-ph</a></li>
+                		<li><a href="papers.html">Astro-ph</a></li>
     				</ul>
 				</nav>
 				<footer>
@@ -43,12 +43,16 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Two -->
-							<section id="three">
-								<div class="container">
-									<h3>FIRST STARS</h3>
-                </div>
-          </div>
+						<section id="three">
+							<div class="container">
+								<h3>FIRST STARS</h3>
+								<input type="text" data-papers-search placeholder="Filter by title, author or year" aria-label="Filter papers" />
+								<!-- A lista é montada por assets/js/papers.js a partir de data/papers.json -->
+								<div data-papers="firststars"><p>Loading papers…</p></div>
+							</div>
+						</section>
+
+					</div>
 			</div>
 
 		<!-- Scripts -->
@@ -59,6 +63,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/papers.js"></script>
 
 	</body>
 </html>

@@ -1,229 +1,1662 @@
 {
- "updated": null,
+ "updated": "2026-11-23",
  "papers": [
   {
-   "title": "The spheroidal bulge of the Milky Way: Chemodynamically distinct from the inner-thick disc and bar",
-   "authors": "Nepal et al.",
+   "title": "The Origin of Strong α-Element Bimodalities in FIRE Simulations of Milky Way-Mass Galaxies",
+   "authors": "Barry et al.",
    "year": "2026",
-   "pubdate": "2026-01-01",
-   "url": "https://www.aanda.org/articles/aa/full_html/2026/03/aa56326-25/aa56326-25.html",
-   "ads": null,
-   "arxiv": null,
+   "pubdate": "2026-10-01",
+   "url": "https://doi.org/10.3847/1538-4357/aea412",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1010....7B/abstract",
+   "arxiv": "2601.02520",
    "categories": [
-    "structure"
+    "formation_structure",
+    "chemical"
    ],
-   "ids": [],
-   "added": "2026-01-01"
+   "ids": [
+    "10.3847/1538-4357/aea412",
+    "10.48550/arXiv.2601.02520",
+    "2026ApJ..1010....7B",
+    "2026arXiv260102520B",
+    "arXiv:2601.02520"
+   ],
+   "added": "2026-10-01"
   },
   {
-   "title": "The structure and evolution of the Galactic high-α disc I. Chemical and age orbital cartography",
-   "authors": "Akbaba et al.",
+   "title": "That's So Retro: The Gaia-Sausage-Enceladus Merger Trajectory as the Origin of the Chemical Abundance Bimodality in the Milky Way Disk",
+   "authors": "Johnson et al.",
    "year": "2026",
-   "pubdate": "2026-01-01",
-   "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319230A/abstract",
-   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319230A/abstract",
-   "arxiv": null,
+   "pubdate": "2026-10-01",
+   "url": "https://doi.org/10.3847/1538-4357/ae9eb0",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1010...87J/abstract",
+   "arxiv": "2510.08688",
    "categories": [
-    "structure"
+    "chemical"
    ],
-   "ids": [],
-   "added": "2026-01-01"
+   "ids": [
+    "10.3847/1538-4357/ae9eb0",
+    "10.48550/arXiv.2510.08688",
+    "2025arXiv251008688J",
+    "2026ApJ..1010...87J",
+    "arXiv:2510.08688"
+   ],
+   "added": "2026-10-01"
+  },
+  {
+   "title": "Evidence of a massive accretion event 1.8 billion years before the Gaia-Sausage-Enceladus merger",
+   "authors": "Massari et al.",
+   "year": "2026",
+   "pubdate": "2026-10-01",
+   "url": "https://doi.org/10.1038/s41550-026-02931-5",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026NatAs..10.1570M/abstract",
+   "arxiv": "2601.18896",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1038/s41550-026-02931-5",
+    "10.48550/arXiv.2601.18896",
+    "2026NatAs..10.1570M",
+    "2026NatAs.tmp..172M",
+    "2026arXiv260118896M",
+    "arXiv:2601.18896"
+   ],
+   "added": "2026-10-01"
+  },
+  {
+   "title": "The Low-α Splash Population in the Milky Way",
+   "authors": "Borbolato et al.",
+   "year": "2026",
+   "pubdate": "2026-09-01",
+   "url": "https://doi.org/10.3847/2041-8213/ae9605",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1008L..23B/abstract",
+   "arxiv": "2605.16050",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/2041-8213/ae9605",
+    "10.48550/arXiv.2605.16050",
+    "2026ApJ..1008L..23B",
+    "2026arXiv260516050B",
+    "arXiv:2605.16050"
+   ],
+   "added": "2026-09-01"
+  },
+  {
+   "title": "Impact of selection criteria on the structural parameters of the Galactic thin and thick discs",
+   "authors": "Alinder et al.",
+   "year": "2026",
+   "pubdate": "2026-07-01",
+   "url": "https://doi.org/10.1051/0004-6361/202558090",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026A%26A...710A.403A/abstract",
+   "arxiv": "2511.10092",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1051/0004-6361/202558090",
+    "10.48550/arXiv.2511.10092",
+    "2025arXiv251110092A",
+    "2026A&A...710A.403A",
+    "arXiv:2511.10092"
+   ],
+   "added": "2026-07-01"
+  },
+  {
+   "title": "Milky Way Mapper decoded abundances ─ I. Shared disc enrichment patterns",
+   "authors": "Ness et al.",
+   "year": "2026",
+   "pubdate": "2026-06-01",
+   "url": "https://doi.org/10.1093/mnras/stag637",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.548ag637N/abstract",
+   "arxiv": "2605.20487",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stag637",
+    "10.48550/arXiv.2605.20487",
+    "2026MNRAS.548ag637N",
+    "2026MNRAS.548g.637N",
+    "2026MNRAS.tmp..626N",
+    "2026arXiv260520487N",
+    "arXiv:2605.20487"
+   ],
+   "added": "2026-06-01"
+  },
+  {
+   "title": "Bar-halo interaction: the role of orbital anisotropy",
+   "authors": "Gherghinescu et al.",
+   "year": "2026",
+   "pubdate": "2026-05-01",
+   "url": "https://arxiv.org/abs/2605.26225",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv260526225G/abstract",
+   "arxiv": "2605.26225",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2605.26225",
+    "2026arXiv260526225G",
+    "2026arXiv260526225P",
+    "arXiv:2605.26225"
+   ],
+   "added": "2026-05-01"
+  },
+  {
+   "title": "Identifying ∼20,000 Li-rich Giants in the LAMOST Low-resolution Survey",
+   "authors": "Ding et al.",
+   "year": "2026",
+   "pubdate": "2026-04-01",
+   "url": "https://doi.org/10.3847/1538-4365/ae4221",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026ApJS..283...43D/abstract",
+   "arxiv": "2602.22572",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/1538-4365/ae4221",
+    "10.48550/arXiv.2602.22572",
+    "2026ApJS..283...43D",
+    "2026arXiv260222572D",
+    "arXiv:2602.22572"
+   ],
+   "added": "2026-04-01"
   },
   {
    "title": "Through Thick and Thin: The Cosmic Evolution of Disk Scale Height",
    "authors": "Yu et al.",
    "year": "2026",
-   "pubdate": "2026-01-01",
-   "url": "https://iopscience.iop.org/article/10.3847/1538-4365/ae3f24",
-   "ads": null,
-   "arxiv": null,
+   "pubdate": "2026-03-01",
+   "url": "https://doi.org/10.3847/1538-4365/ae3f24",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026ApJS..283...35Y/abstract",
+   "arxiv": "2601.04988",
    "categories": [
-    "structure"
+    "formation_structure"
    ],
-   "ids": [],
+   "ids": [
+    "10.3847/1538-4365/ae3f24",
+    "10.48550/arXiv.2601.04988",
+    "2026ApJS..283...35Y",
+    "2026arXiv260104988Y",
+    "arXiv:2601.04988"
+   ],
+   "added": "2026-03-01"
+  },
+  {
+   "title": "The structure and evolution of the Galactic high-$α$ disc I. Chemical and age orbital cartography",
+   "authors": "Akbaba et al.",
+   "year": "2026",
+   "pubdate": "2026-03-01",
+   "url": "https://arxiv.org/abs/2603.19230",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319230A/abstract",
+   "arxiv": "2603.19230",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.48550/arXiv.2603.19230",
+    "2026arXiv260319230A",
+    "arXiv:2603.19230"
+   ],
+   "added": "2026-03-01"
+  },
+  {
+   "title": "The spheroidal bulge of the Milky Way: Chemodynamically distinct from the inner-thick disc and bar",
+   "authors": "Nepal et al.",
+   "year": "2026",
+   "pubdate": "2026-03-01",
+   "url": "https://doi.org/10.1051/0004-6361/202556326",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026A%26A...707A.190N/abstract",
+   "arxiv": "2507.06863",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/202556326",
+    "10.48550/arXiv.2507.06863",
+    "2025arXiv250706863N",
+    "2026A&A...707A.190N",
+    "arXiv:2507.06863"
+   ],
+   "added": "2026-03-01"
+  },
+  {
+   "title": "Revisiting the radial metallicity gradient─age relation in the Milky Way's thin and thick discs",
+   "authors": "Chen et al.",
+   "year": "2026",
+   "pubdate": "2026-03-01",
+   "url": "https://doi.org/10.1093/mnras/stag035",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.546ag035C/abstract",
+   "arxiv": "2508.20386",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stag035",
+    "10.48550/arXiv.2508.20386",
+    "2025arXiv250820386C",
+    "2026MNRAS.546ag035C",
+    "2026MNRAS.546g..35C",
+    "2026MNRAS.tmp...87C",
+    "arXiv:2508.20386"
+   ],
+   "added": "2026-03-01"
+  },
+  {
+   "title": "The satellite galaxies of the Milky Way and Andromeda",
+   "authors": "Doliva-Dolinsky et al.",
+   "year": "2026",
+   "pubdate": "2026-01-01",
+   "url": "https://doi.org/10.1016/B978-0-443-21439-4.00086-9",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026enap....4...61D/abstract",
+   "arxiv": "2502.06948",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1016/B978-0-443-21439-4.00086-9",
+    "10.48550/arXiv.2502.06948",
+    "2025arXiv250206948D",
+    "2026enap....4...61D",
+    "arXiv:2502.06948"
+   ],
    "added": "2026-01-01"
+  },
+  {
+   "title": "Milky Way disk",
+   "authors": "Kawata et al.",
+   "year": "2026",
+   "pubdate": "2026-01-01",
+   "url": "https://doi.org/10.1016/B978-0-443-21439-4.00064-X",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026enap....4...38K/abstract",
+   "arxiv": "2412.12252",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1016/B978-0-443-21439-4.00064-X",
+    "10.48550/arXiv.2412.12252",
+    "2024arXiv241212252K",
+    "2026enap....4...38K",
+    "arXiv:2412.12252"
+   ],
+   "added": "2026-01-01"
+  },
+  {
+   "title": "Early Coformation of the Milky Way's Thin and Thick Disks at Redshift z &gt; 2",
+   "authors": "Borbolato et al.",
+   "year": "2025",
+   "pubdate": "2025-11-01",
+   "url": "https://doi.org/10.3847/1538-4357/ae0c96",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2025ApJ...994..126B/abstract",
+   "arxiv": "2504.00135",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/1538-4357/ae0c96",
+    "10.48550/arXiv.2504.00135",
+    "2025ApJ...994..126B",
+    "2025arXiv250400135B",
+    "arXiv:2504.00135"
+   ],
+   "added": "2025-11-01"
+  },
+  {
+   "title": "How Early Could the Milky Way's Disk Form?",
+   "authors": "Semenov et al.",
+   "year": "2025",
+   "pubdate": "2025-09-01",
+   "url": "https://doi.org/10.3847/1538-4357/addf48",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2025ApJ...990....7S/abstract",
+   "arxiv": "2409.18173",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.3847/1538-4357/addf48",
+    "10.48550/arXiv.2409.18173",
+    "2024arXiv240918173S",
+    "2025ApJ...990....7S",
+    "arXiv:2409.18173"
+   ],
+   "added": "2025-09-01"
   },
   {
    "title": "Mapping the Milky Way with Gaia Bp/Rp spectra: II. The inner stellar halo traced by a large sample of blue horizontal branch stars",
    "authors": "Wu et al.",
    "year": "2025",
-   "pubdate": "2025-01-01",
-   "url": "https://www.aanda.org/articles/aa/full_html/2025/08/aa54410-25/aa54410-25.html",
-   "ads": null,
-   "arxiv": null,
+   "pubdate": "2025-08-01",
+   "url": "https://doi.org/10.1051/0004-6361/202554410",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2025A%26A...700A.244W/abstract",
+   "arxiv": "2508.08784",
    "categories": [
-    "structure"
+    "formation_structure"
    ],
-   "ids": [],
-   "added": "2025-01-01"
-  },
-  {
-   "title": "Impact of selection criteria on the structural parameters of the Galactic thin and thick discs",
-   "authors": "Alinder et al.",
-   "year": "2025",
-   "pubdate": "2025-01-01",
-   "url": "https://ui.adsabs.harvard.edu/abs/2025arXiv251110092A/abstract",
-   "ads": "https://ui.adsabs.harvard.edu/abs/2025arXiv251110092A/abstract",
-   "arxiv": null,
-   "categories": [
-    "structure"
+   "ids": [
+    "10.1051/0004-6361/202554410",
+    "10.48550/arXiv.2508.08784",
+    "2025A&A...700A.244W",
+    "2025arXiv250808784W",
+    "arXiv:2508.08784"
    ],
-   "ids": [],
-   "added": "2025-01-01"
+   "added": "2025-08-01"
   },
   {
    "title": "A Detailed Analysis of the Milky Way Warp Based on Classical Cepheids",
    "authors": "Zhou et al.",
    "year": "2025",
-   "pubdate": "2025-01-01",
-   "url": "https://iopscience.iop.org/article/10.3847/1538-4357/adee1b",
-   "ads": null,
-   "arxiv": null,
+   "pubdate": "2025-08-01",
+   "url": "https://doi.org/10.3847/1538-4357/adee1b",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2025ApJ...989..213Z/abstract",
+   "arxiv": "2507.06494",
    "categories": [
-    "structure"
+    "formation_structure"
    ],
-   "ids": [],
+   "ids": [
+    "10.3847/1538-4357/adee1b",
+    "10.48550/arXiv.2507.06494",
+    "2025ApJ...989..213Z",
+    "2025arXiv250706494Z",
+    "arXiv:2507.06494"
+   ],
+   "added": "2025-08-01"
+  },
+  {
+   "title": "Rising from the Ashes. II. The Bar-driven Abundance Bimodality of the Milky Way",
+   "authors": "Beane et al.",
+   "year": "2025",
+   "pubdate": "2025-06-01",
+   "url": "https://doi.org/10.3847/1538-4357/adceab",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2025ApJ...985..221B/abstract",
+   "arxiv": "2410.21580",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/1538-4357/adceab",
+    "10.48550/arXiv.2410.21580",
+    "2024arXiv241021580B",
+    "2025ApJ...985..221B",
+    "arXiv:2410.21580"
+   ],
+   "added": "2025-06-01"
+  },
+  {
+   "title": "The formation and survival of the Milky Way's oldest stellar disk",
+   "authors": "Xiang et al.",
+   "year": "2025",
+   "pubdate": "2025-01-01",
+   "url": "https://doi.org/10.1038/s41550-024-02382-w",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2025NatAs...9..101X/abstract",
+   "arxiv": "2410.09705",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1038/s41550-024-02382-w",
+    "10.48550/arXiv.2410.09705",
+    "2024NatAs.tmp..245X",
+    "2024arXiv241009705X",
+    "2025NatAs...9..101X",
+    "arXiv:2410.09705"
+   ],
    "added": "2025-01-01"
+  },
+  {
+   "title": "The Three-phase Evolution of the Milky Way",
+   "authors": "Chandra et al.",
+   "year": "2024",
+   "pubdate": "2024-09-01",
+   "url": "https://doi.org/10.3847/1538-4357/ad5b60",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024ApJ...972..112C/abstract",
+   "arxiv": "2310.13050",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/1538-4357/ad5b60",
+    "10.48550/arXiv.2310.13050",
+    "2023arXiv231013050C",
+    "2024ApJ...972..112C",
+    "arXiv:2310.13050"
+   ],
+   "added": "2024-09-01"
+  },
+  {
+   "title": "On the existence of a very metal-poor disc in the Milky Way",
+   "authors": "Zhang et al.",
+   "year": "2024",
+   "pubdate": "2024-09-01",
+   "url": "https://doi.org/10.1093/mnras/stae1887",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.533..889Z/abstract",
+   "arxiv": "2311.09294",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1093/mnras/stae1887",
+    "10.48550/arXiv.2311.09294",
+    "2023arXiv231109294Z",
+    "2024MNRAS.533..889Z",
+    "2024MNRAS.tmp.1839Z",
+    "arXiv:2311.09294"
+   ],
+   "added": "2024-09-01"
+  },
+  {
+   "title": "Formation of Galactic Disks. II. The Physical Drivers of Disk Spin-up",
+   "authors": "Semenov et al.",
+   "year": "2024",
+   "pubdate": "2024-09-01",
+   "url": "https://doi.org/10.3847/1538-4357/ad57ba",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024ApJ...972...73S/abstract",
+   "arxiv": "2306.13125",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.3847/1538-4357/ad57ba",
+    "10.48550/arXiv.2306.13125",
+    "2023arXiv230613125S",
+    "2024ApJ...972...73S",
+    "arXiv:2306.13125"
+   ],
+   "added": "2024-09-01"
+  },
+  {
+   "title": "Radial halo substructure in harmony with the Galactic bar",
+   "authors": "Dillamore et al.",
+   "year": "2024",
+   "pubdate": "2024-08-01",
+   "url": "https://doi.org/10.1093/mnras/stae1789",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.4389D/abstract",
+   "arxiv": "2402.14907",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1093/mnras/stae1789",
+    "10.48550/arXiv.2402.14907",
+    "2024MNRAS.532.4389D",
+    "2024MNRAS.tmp.1765D",
+    "2024arXiv240214907D",
+    "arXiv:2402.14907"
+   ],
+   "added": "2024-08-01"
+  },
+  {
+   "title": "Discovery of the local counterpart of disc galaxies at z &gt; 4: The oldest thin disc of the Milky Way using Gaia-RVS",
+   "authors": "Nepal et al.",
+   "year": "2024",
+   "pubdate": "2024-08-01",
+   "url": "https://doi.org/10.1051/0004-6361/202449445",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024A%26A...688A.167N/abstract",
+   "arxiv": "2402.00561",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/202449445",
+    "10.48550/arXiv.2402.00561",
+    "2024A&A...688A.167N",
+    "2024arXiv240200561N",
+    "arXiv:2402.00561"
+   ],
+   "added": "2024-08-01"
+  },
+  {
+   "title": "Chronology of our Galaxy from Gaia colour-magnitude diagram fitting (ChronoGal). I. The formation and evolution of the thin disc from the Gaia Catalogue of Nearby Stars",
+   "authors": "Gallart et al.",
+   "year": "2024",
+   "pubdate": "2024-07-01",
+   "url": "https://doi.org/10.1051/0004-6361/202349078",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024A%26A...687A.168G/abstract",
+   "arxiv": "2402.09399",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1051/0004-6361/202349078",
+    "10.48550/arXiv.2402.09399",
+    "2024A&A...687A.168G",
+    "2024arXiv240209399G",
+    "arXiv:2402.09399"
+   ],
+   "added": "2024-07-01"
+  },
+  {
+   "title": "Mapping the Chemodynamics of the Galactic Disk Using the LAMOST and APOGEE Red Clump Stars",
+   "authors": "Sun et al.",
+   "year": "2024",
+   "pubdate": "2024-05-01",
+   "url": "https://doi.org/10.3847/1538-4365/ad3043",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024ApJS..272....8S/abstract",
+   "arxiv": "2403.01842",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/1538-4365/ad3043",
+    "10.48550/arXiv.2403.01842",
+    "2024ApJS..272....8S",
+    "2024arXiv240301842S",
+    "arXiv:2403.01842"
+   ],
+   "added": "2024-05-01"
+  },
+  {
+   "title": "The proto-galaxy of Milky Way-mass haloes in the FIRE simulations",
+   "authors": "Horta et al.",
+   "year": "2024",
+   "pubdate": "2024-02-01",
+   "url": "https://doi.org/10.1093/mnras/stad3834",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.9810H/abstract",
+   "arxiv": "2307.15741",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1093/mnras/stad3834",
+    "10.48550/arXiv.2307.15741",
+    "2023MNRAS.tmp.3659H",
+    "2023arXiv230715741H",
+    "2024MNRAS.527.9810H",
+    "arXiv:2307.15741"
+   ],
+   "added": "2024-02-01"
+  },
+  {
+   "title": "Formation of Galactic Disks. I. Why Did the Milky Way's Disk Form Unusually Early?",
+   "authors": "Semenov et al.",
+   "year": "2024",
+   "pubdate": "2024-02-01",
+   "url": "https://doi.org/10.3847/1538-4357/ad150a",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024ApJ...962...84S/abstract",
+   "arxiv": "2306.09398",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.3847/1538-4357/ad150a",
+    "10.48550/arXiv.2306.09398",
+    "2023arXiv230609398S",
+    "2024ApJ...962...84S",
+    "arXiv:2306.09398"
+   ],
+   "added": "2024-02-01"
+  },
+  {
+   "title": "Taking the Milky Way for a spin: disc formation in the ARTEMIS simulations",
+   "authors": "Dillamore et al.",
+   "year": "2024",
+   "pubdate": "2024-01-01",
+   "url": "https://doi.org/10.1093/mnras/stad3369",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.7070D/abstract",
+   "arxiv": "2309.08658",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1093/mnras/stad3369",
+    "10.48550/arXiv.2309.08658",
+    "2023MNRAS.tmp.3208D",
+    "2023arXiv230908658D",
+    "2024MNRAS.527.7070D",
+    "arXiv:2309.08658"
+   ],
+   "added": "2024-01-01"
+  },
+  {
+   "title": "Insights from super-metal-rich stars: Is the Milky Way bar young?",
+   "authors": "Nepal et al.",
+   "year": "2024",
+   "pubdate": "2024-01-01",
+   "url": "https://doi.org/10.1051/0004-6361/202348365",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024A%26A...681L...8N/abstract",
+   "arxiv": "2311.16993",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/202348365",
+    "10.48550/arXiv.2311.16993",
+    "2023arXiv231116993N",
+    "2024A&A...681L...8N",
+    "arXiv:2311.16993"
+   ],
+   "added": "2024-01-01"
+  },
+  {
+   "title": "Disc settling and dynamical heating: histories of Milky Way-mass stellar discs across cosmic time in the FIRE simulations",
+   "authors": "McCluskey et al.",
+   "year": "2024",
+   "pubdate": "2024-01-01",
+   "url": "https://doi.org/10.1093/mnras/stad3547",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.6926M/abstract",
+   "arxiv": "2303.14210",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1093/mnras/stad3547",
+    "10.48550/arXiv.2303.14210",
+    "2023MNRAS.tmp.3612M",
+    "2023arXiv230314210M",
+    "2024MNRAS.527.6926M",
+    "arXiv:2303.14210"
+   ],
+   "added": "2024-01-01"
   },
   {
    "title": "All-sky Kinematics and Chemistry of Monoceros Stellar Overdensity",
    "authors": "Borbolato et al.",
    "year": "2024",
    "pubdate": "2024-01-01",
-   "url": "https://iopscience.iop.org/article/10.3847/1538-4357/ad02fb",
-   "ads": null,
-   "arxiv": null,
+   "url": "https://doi.org/10.3847/1538-4357/ad02fb",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024ApJ...960...52B/abstract",
+   "arxiv": "2309.15321",
    "categories": [
-    "structure"
+    "formation_structure"
    ],
-   "ids": [],
-   "added": "2024-01-01"
-  },
-  {
-   "title": "Radial halo substructure in harmony with the Galactic bar",
-   "authors": "Dillamore et al.",
-   "year": "2024",
-   "pubdate": "2024-01-01",
-   "url": "https://academic.oup.com/mnras/article/532/4/4389/7721124",
-   "ads": null,
-   "arxiv": null,
-   "categories": [
-    "structure"
+   "ids": [
+    "10.3847/1538-4357/ad02fb",
+    "10.48550/arXiv.2309.15321",
+    "2023arXiv230915321B",
+    "2024ApJ...960...52B",
+    "arXiv:2309.15321"
    ],
-   "ids": [],
    "added": "2024-01-01"
   },
   {
    "title": "Stellar halo substructure generated by bar resonances",
    "authors": "Dillamore et al.",
    "year": "2023",
-   "pubdate": "2023-01-01",
-   "url": "https://academic.oup.com/mnras/article/524/3/3596/7225528",
-   "ads": null,
-   "arxiv": null,
+   "pubdate": "2023-09-01",
+   "url": "https://doi.org/10.1093/mnras/stad2136",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.3596D/abstract",
+   "arxiv": "2303.00008",
    "categories": [
-    "structure"
+    "formation_structure"
    ],
-   "ids": [],
-   "added": "2023-01-01"
+   "ids": [
+    "10.1093/mnras/stad2136",
+    "10.48550/arXiv.2303.00008",
+    "2023MNRAS.524.3596D",
+    "2023MNRAS.tmp.2042D",
+    "2023arXiv230300008D",
+    "arXiv:2303.00008"
+   ],
+   "added": "2023-09-01"
   },
   {
    "title": "A Tale of Two Disks: Mapping the Milky Way with the Final Data Release of APOGEE",
    "authors": "Imig et al.",
    "year": "2023",
-   "pubdate": "2023-01-01",
-   "url": "https://iopscience.iop.org/article/10.3847/1538-4357/ace9b8",
-   "ads": null,
-   "arxiv": null,
+   "pubdate": "2023-09-01",
+   "url": "https://doi.org/10.3847/1538-4357/ace9b8",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2023ApJ...954..124I/abstract",
+   "arxiv": "2307.13887",
    "categories": [
-    "structure"
+    "formation_structure",
+    "chemical"
    ],
-   "ids": [],
-   "added": "2023-01-01"
+   "ids": [
+    "10.3847/1538-4357/ace9b8",
+    "10.48550/arXiv.2307.13887",
+    "2023ApJ...954..124I",
+    "2023arXiv230713887I",
+    "arXiv:2307.13887"
+   ],
+   "added": "2023-09-01"
+  },
+  {
+   "title": "Gaia Data Release 3. Chemical cartography of the Milky Way",
+   "authors": "Gaia Collaboration et al.",
+   "year": "2023",
+   "pubdate": "2023-06-01",
+   "url": "https://doi.org/10.1051/0004-6361/202243511",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2023A%26A...674A..38G/abstract",
+   "arxiv": "2206.05534",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/202243511",
+    "10.48550/arXiv.2206.05534",
+    "2022arXiv220605534G",
+    "2023A&A...674A..38G",
+    "arXiv:2206.05534"
+   ],
+   "added": "2023-06-01"
+  },
+  {
+   "title": "Timing the formation of the galactic thin disc with asteroseismic stellar ages",
+   "authors": "Wu et al.",
+   "year": "2023",
+   "pubdate": "2023-04-01",
+   "url": "https://doi.org/10.1093/mnras/stad223",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.1913W/abstract",
+   "arxiv": "2301.07990",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stad223",
+    "10.48550/arXiv.2301.07990",
+    "2023MNRAS.520.1913W",
+    "2023MNRAS.tmp..254W",
+    "2023arXiv230107990Y",
+    "arXiv:2301.07990"
+   ],
+   "added": "2023-04-01"
+  },
+  {
+   "title": "Li-rich Giants Identified from LAMOST DR8 Low-resolution Survey",
+   "authors": "Cai et al.",
+   "year": "2023",
+   "pubdate": "2023-02-01",
+   "url": "https://doi.org/10.3847/1538-3881/aca098",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2023AJ....165...52C/abstract",
+   "arxiv": "2211.06608",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/1538-3881/aca098",
+    "10.48550/arXiv.2211.06608",
+    "2022arXiv221106608C",
+    "2023AJ....165...52C",
+    "arXiv:2211.06608"
+   ],
+   "added": "2023-02-01"
+  },
+  {
+   "title": "Birth of the Galactic Disk Revealed by the H3 Survey",
+   "authors": "Conroy et al.",
+   "year": "2022",
+   "pubdate": "2022-04-01",
+   "url": "https://arxiv.org/abs/2204.02989",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2022arXiv220402989C/abstract",
+   "arxiv": "2204.02989",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2204.02989",
+    "2022arXiv220402989C",
+    "arXiv:2204.02989"
+   ],
+   "added": "2022-04-01"
+  },
+  {
+   "title": "Characterizing epochs of star formation across the Milky Way disc using age-metallicity distributions of GALAH stars",
+   "authors": "Sahlholdt et al.",
+   "year": "2022",
+   "pubdate": "2022-03-01",
+   "url": "https://doi.org/10.1093/mnras/stab3681",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.4669S/abstract",
+   "arxiv": "2112.08218",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stab3681",
+    "10.48550/arXiv.2112.08218",
+    "2021MNRAS.tmp.3379S",
+    "2021arXiv211208218S",
+    "2022MNRAS.510.4669S",
+    "arXiv:2112.08218"
+   ],
+   "added": "2022-03-01"
+  },
+  {
+   "title": "Stellar migration and chemical enrichment in the milky way disc: a hybrid model",
+   "authors": "Johnson et al.",
+   "year": "2021",
+   "pubdate": "2021-12-01",
+   "url": "https://doi.org/10.1093/mnras/stab2718",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.4484J/abstract",
+   "arxiv": "2103.09838",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stab2718",
+    "10.48550/arXiv.2103.09838",
+    "2021MNRAS.508.4484J",
+    "2021MNRAS.tmp.2567J",
+    "2021arXiv210309838J",
+    "arXiv:2103.09838"
+   ],
+   "added": "2021-12-01"
+  },
+  {
+   "title": "VINTERGATAN III: how to reset the metallicity of the Milky Way",
+   "authors": "Renaud et al.",
+   "year": "2021",
+   "pubdate": "2021-06-01",
+   "url": "https://doi.org/10.1093/mnras/stab543",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.5868R/abstract",
+   "arxiv": "2006.06012",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stab543",
+    "10.48550/arXiv.2006.06012",
+    "2020arXiv200606012R",
+    "2021MNRAS.503.5868R",
+    "arXiv:2006.06012"
+   ],
+   "added": "2021-06-01"
+  },
+  {
+   "title": "VINTERGATAN - II. The history of the Milky Way told by its mergers",
+   "authors": "Renaud et al.",
+   "year": "2021",
+   "pubdate": "2021-06-01",
+   "url": "https://doi.org/10.1093/mnras/stab250",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.5846R/abstract",
+   "arxiv": "2006.06011",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1093/mnras/stab250",
+    "10.48550/arXiv.2006.06011",
+    "2020arXiv200606011R",
+    "2021MNRAS.503.5846R",
+    "arXiv:2006.06011"
+   ],
+   "added": "2021-06-01"
+  },
+  {
+   "title": "The AMBRE Project: Origin and evolution of sulfur in the Milky Way",
+   "authors": "Perdigon et al.",
+   "year": "2021",
+   "pubdate": "2021-03-01",
+   "url": "https://doi.org/10.1051/0004-6361/202040147",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2021A%26A...647A.162P/abstract",
+   "arxiv": "2102.01961",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/202040147",
+    "10.48550/arXiv.2102.01961",
+    "2021A&A...647A.162P",
+    "2021arXiv210201961P",
+    "arXiv:2102.01961"
+   ],
+   "added": "2021-03-01"
+  },
+  {
+   "title": "Co-formation of the thin and thick discs revealed by APOGEE-DR16 and Gaia-DR2",
+   "authors": "Beraldo e Silva et al.",
+   "year": "2021",
+   "pubdate": "2021-03-01",
+   "url": "https://doi.org/10.1093/mnras/staa3966",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2021MNRAS.502..260B/abstract",
+   "arxiv": "2009.03346",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/staa3966",
+    "10.48550/arXiv.2009.03346",
+    "2020MNRAS.tmp.3721B",
+    "2020arXiv200903346S",
+    "2021MNRAS.502..260B",
+    "arXiv:2009.03346"
+   ],
+   "added": "2021-03-01"
   },
   {
    "title": "Evidence from APOGEE for the presence of a major building block of the halo buried in the inner Galaxy",
    "authors": "Horta et al.",
-   "year": "2020",
-   "pubdate": "2020-01-01",
-   "url": "https://academic.oup.com/mnras/article/500/1/1385/5991050",
-   "ads": null,
-   "arxiv": null,
+   "year": "2021",
+   "pubdate": "2021-01-01",
+   "url": "https://doi.org/10.1093/mnras/staa2987",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H/abstract",
+   "arxiv": "2007.10374",
    "categories": [
-    "structure"
+    "formation_structure"
    ],
-   "ids": [],
-   "added": "2020-01-01"
+   "ids": [
+    "10.1093/mnras/staa2987",
+    "10.48550/arXiv.2007.10374",
+    "2020MNRAS.500.1385H",
+    "2020arXiv200710374H",
+    "2021MNRAS.500.1385H",
+    "arXiv:2007.10374"
+   ],
+   "added": "2021-01-01"
   },
   {
-   "title": "Spatial variations in the Milky Way disc metallicity–age relation",
+   "title": "Age dissection of the Milky Way discs: Red giants in the Kepler field",
+   "authors": "Miglio et al.",
+   "year": "2021",
+   "pubdate": "2021-01-01",
+   "url": "https://doi.org/10.1051/0004-6361/202038307",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2021A%26A...645A..85M/abstract",
+   "arxiv": "2004.14806",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/202038307",
+    "10.48550/arXiv.2004.14806",
+    "2020arXiv200414806M",
+    "2021A&A...645A..85M",
+    "arXiv:2004.14806"
+   ],
+   "added": "2021-01-01"
+  },
+  {
+   "title": "The dual origin of the Galactic thick disc and halo from the gas-rich Gaia-Enceladus Sausage merger",
+   "authors": "Grand et al.",
+   "year": "2020",
+   "pubdate": "2020-09-01",
+   "url": "https://doi.org/10.1093/mnras/staa2057",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020MNRAS.497.1603G/abstract",
+   "arxiv": "2001.06009",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1093/mnras/staa2057",
+    "10.48550/arXiv.2001.06009",
+    "2020MNRAS.497.1603G",
+    "2020MNRAS.tmp.2164G",
+    "2020arXiv200106009G",
+    "arXiv:2001.06009"
+   ],
+   "added": "2020-09-01"
+  },
+  {
+   "title": "The Origin of Elements from Carbon to Uranium",
+   "authors": "Kobayashi et al.",
+   "year": "2020",
+   "pubdate": "2020-09-01",
+   "url": "https://doi.org/10.3847/1538-4357/abae65",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020ApJ...900..179K/abstract",
+   "arxiv": "2008.04660",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/1538-4357/abae65",
+    "10.48550/arXiv.2008.04660",
+    "2020ApJ...900..179K",
+    "2020arXiv200804660K",
+    "arXiv:2008.04660"
+   ],
+   "added": "2020-09-01"
+  },
+  {
+   "title": "The recurrent impact of the Sagittarius dwarf on the star formation history of the Milky Way",
+   "authors": "Ruiz-Lara et al.",
+   "year": "2020",
+   "pubdate": "2020-05-01",
+   "url": "https://doi.org/10.1038/s41550-020-1097-0",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020NatAs...4..965R/abstract",
+   "arxiv": "2003.12577",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1038/s41550-020-1097-0",
+    "10.48550/arXiv.2003.12577",
+    "2020NatAs...4..965R",
+    "2020NatAs.tmp..111R",
+    "2020arXiv200312577R",
+    "arXiv:2003.12577"
+   ],
+   "added": "2020-05-01"
+  },
+  {
+   "title": "The biggest splash",
+   "authors": "Belokurov et al.",
+   "year": "2020",
+   "pubdate": "2020-05-01",
+   "url": "https://doi.org/10.1093/mnras/staa876",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.3880B/abstract",
+   "arxiv": "1909.04679",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1093/mnras/staa876",
+    "10.48550/arXiv.1909.04679",
+    "2019arXiv190904679B",
+    "2020MNRAS.494.3880B",
+    "2020MNRAS.tmp..152B",
+    "arXiv:1909.04679"
+   ],
+   "added": "2020-05-01"
+  },
+  {
+   "title": "The Splash without a Merger",
+   "authors": "Amarante et al.",
+   "year": "2020",
+   "pubdate": "2020-03-01",
+   "url": "https://doi.org/10.3847/2041-8213/ab78a4",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020ApJ...891L..30A/abstract",
+   "arxiv": "1912.12690",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.3847/2041-8213/ab78a4",
+    "10.48550/arXiv.1912.12690",
+    "2019arXiv191212690A",
+    "2020ApJ...891L..30A",
+    "arXiv:1912.12690"
+   ],
+   "added": "2020-03-01"
+  },
+  {
+   "title": "Evidence for Galactic disc RR Lyrae stars in the solar neighbourhood",
+   "authors": "Prudil et al.",
+   "year": "2020",
+   "pubdate": "2020-03-01",
+   "url": "https://doi.org/10.1093/mnras/staa046",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.3408P/abstract",
+   "arxiv": "2001.02486",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1093/mnras/staa046",
+    "10.48550/arXiv.2001.02486",
+    "2020MNRAS.492.3408P",
+    "2020MNRAS.tmp...59P",
+    "2020arXiv200102486P",
+    "arXiv:2001.02486"
+   ],
+   "added": "2020-03-01"
+  },
+  {
+   "title": "On the origin of the chemical bimodality of disc stars: a tale of merger and migration",
+   "authors": "Buck",
+   "year": "2020",
+   "pubdate": "2020-02-01",
+   "url": "https://doi.org/10.1093/mnras/stz3289",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.5435B/abstract",
+   "arxiv": "1909.09162",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stz3289",
+    "10.48550/arXiv.1909.09162",
+    "2019MNRAS.tmp.2881B",
+    "2019MNRAS.tmp.2946B",
+    "2019arXiv190909162B",
+    "2020MNRAS.491.5435B",
+    "arXiv:1909.09162"
+   ],
+   "added": "2020-02-01"
+  },
+  {
+   "title": "Evolution of lithium in the Milky Way halo, discs, and bulge",
+   "authors": "Grisoni et al.",
+   "year": "2019",
+   "pubdate": "2019-11-01",
+   "url": "https://doi.org/10.1093/mnras/stz2428",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3539G/abstract",
+   "arxiv": "1906.09130",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stz2428",
+    "10.48550/arXiv.1906.09130",
+    "2019MNRAS.489.3539G",
+    "2019MNRAS.tmp.2097G",
+    "2019arXiv190609130G",
+    "arXiv:1906.09130"
+   ],
+   "added": "2019-11-01"
+  },
+  {
+   "title": "The Inside-out Growth of the Galactic Disk",
+   "authors": "Frankel et al.",
+   "year": "2019",
+   "pubdate": "2019-10-01",
+   "url": "https://doi.org/10.3847/1538-4357/ab4254",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2019ApJ...884...99F/abstract",
+   "arxiv": "1909.07118",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.3847/1538-4357/ab4254",
+    "10.48550/arXiv.1909.07118",
+    "2019ApJ...884...99F",
+    "2019arXiv190907118F",
+    "arXiv:1909.07118"
+   ],
+   "added": "2019-10-01"
+  },
+  {
+   "title": "Spatial variations in the Milky Way disc metallicity-age relation",
    "authors": "Feuillet et al.",
    "year": "2019",
-   "pubdate": "2019-01-01",
-   "url": "https://academic.oup.com/mnras/article/489/2/1742/5550948",
-   "ads": null,
-   "arxiv": null,
+   "pubdate": "2019-10-01",
+   "url": "https://doi.org/10.1093/mnras/stz2221",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.1742F/abstract",
+   "arxiv": "1908.02772",
    "categories": [
-    "structure"
+    "formation_structure",
+    "chemical"
    ],
-   "ids": [],
-   "added": "2019-01-01"
+   "ids": [
+    "10.1093/mnras/stz2221",
+    "10.48550/arXiv.1908.02772",
+    "2019MNRAS.489.1742F",
+    "2019MNRAS.tmp.2191F",
+    "2019arXiv190802772F",
+    "arXiv:1908.02772"
+   ],
+   "added": "2019-10-01"
+  },
+  {
+   "title": "A Gaia-Enceladus Analog in the EAGLE Simulation: Insights into the Early Evolution of the Milky Way",
+   "authors": "Bignone et al.",
+   "year": "2019",
+   "pubdate": "2019-09-01",
+   "url": "https://doi.org/10.3847/2041-8213/ab3e0e",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2019ApJ...883L...5B/abstract",
+   "arxiv": "1908.07080",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.3847/2041-8213/ab3e0e",
+    "10.48550/arXiv.1908.07080",
+    "2019ApJ...883L...5B",
+    "2019arXiv190807080B",
+    "arXiv:1908.07080"
+   ],
+   "added": "2019-09-01"
+  },
+  {
+   "title": "The AMBRE Project: r-process elements in the Milky Way thin and thick discs",
+   "authors": "Guiglion et al.",
+   "year": "2018",
+   "pubdate": "2018-11-01",
+   "url": "https://doi.org/10.1051/0004-6361/201833782",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.143G/abstract",
+   "arxiv": "1809.07960",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/201833782",
+    "10.48550/arXiv.1809.07960",
+    "2018A&A...619A.143G",
+    "2018arXiv180907960G",
+    "arXiv:1809.07960"
+   ],
+   "added": "2018-11-01"
+  },
+  {
+   "title": "Co-formation of the disc and the stellar halo",
+   "authors": "Belokurov et al.",
+   "year": "2018",
+   "pubdate": "2018-07-01",
+   "url": "https://doi.org/10.1093/mnras/sty982",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B/abstract",
+   "arxiv": "1802.03414",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.1093/mnras/sty982",
+    "10.48550/arXiv.1802.03414",
+    "2018MNRAS.478..611B",
+    "2018arXiv180203414B",
+    "arXiv:1802.03414"
+   ],
+   "added": "2018-07-01"
+  },
+  {
+   "title": "Age-resolved chemistry of red giants in the solar neighbourhood",
+   "authors": "Feuillet et al.",
+   "year": "2018",
+   "pubdate": "2018-06-01",
+   "url": "https://doi.org/10.1093/mnras/sty779",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.477.2326F/abstract",
+   "arxiv": "1803.06352",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/sty779",
+    "10.48550/arXiv.1803.06352",
+    "2018MNRAS.477.2326F",
+    "2018MNRAS.tmp..759F",
+    "2018arXiv180306352F",
+    "arXiv:1803.06352"
+   ],
+   "added": "2018-06-01"
+  },
+  {
+   "title": "Confirming chemical clocks: asteroseismic age dissection of the Milky Way disc(s)",
+   "authors": "Silva Aguirre et al.",
+   "year": "2018",
+   "pubdate": "2018-04-01",
+   "url": "https://doi.org/10.1093/mnras/sty150",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5487S/abstract",
+   "arxiv": "1710.09847",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/sty150",
+    "10.48550/arXiv.1710.09847",
+    "2017arXiv171009847S",
+    "2018MNRAS.475.5487S",
+    "2018MNRAS.tmp..148A",
+    "2018MNRAS.tmp..148S",
+    "arXiv:1710.09847"
+   ],
+   "added": "2018-04-01"
+  },
+  {
+   "title": "Origin of chemically distinct discs in the Auriga cosmological simulations",
+   "authors": "Grand et al.",
+   "year": "2018",
+   "pubdate": "2018-03-01",
+   "url": "https://doi.org/10.1093/mnras/stx3025",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.474.3629G/abstract",
+   "arxiv": "1708.07834",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stx3025",
+    "10.48550/arXiv.1708.07834",
+    "2017arXiv170807834G",
+    "2018MNRAS.474.3629G",
+    "arXiv:1708.07834"
+   ],
+   "added": "2018-03-01"
+  },
+  {
+   "title": "The AMBRE project: chemical evolution models for the Milky Way thick and thin discs",
+   "authors": "Grisoni et al.",
+   "year": "2017",
+   "pubdate": "2017-12-01",
+   "url": "https://doi.org/10.1093/mnras/stx2201",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2017MNRAS.472.3637G/abstract",
+   "arxiv": "1706.02614",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stx2201",
+    "10.48550/arXiv.1706.02614",
+    "2017MNRAS.472.3637G",
+    "2017arXiv170602614G",
+    "arXiv:1706.02614"
+   ],
+   "added": "2017-12-01"
   },
   {
    "title": "The Evolution of the Galactic Thick Disk with the LAMOST Survey",
    "authors": "Li & Zhao",
    "year": "2017",
-   "pubdate": "2017-01-01",
-   "url": "https://iopscience.iop.org/article/10.3847/1538-4357/aa93f4",
-   "ads": null,
+   "pubdate": "2017-11-01",
+   "url": "https://doi.org/10.3847/1538-4357/aa93f4",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2017ApJ...850...25L/abstract",
    "arxiv": null,
    "categories": [
-    "structure"
+    "formation_structure",
+    "chemical"
    ],
-   "ids": [],
+   "ids": [
+    "10.3847/1538-4357/aa93f4",
+    "2017ApJ...850...25L"
+   ],
+   "added": "2017-11-01"
+  },
+  {
+   "title": "The AMBRE project: Iron-peak elements in the solar neighbourhood",
+   "authors": "Mikolaitis et al.",
+   "year": "2017",
+   "pubdate": "2017-04-01",
+   "url": "https://doi.org/10.1051/0004-6361/201629629",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2017A%26A...600A..22M/abstract",
+   "arxiv": "1612.07622",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/201629629",
+    "10.48550/arXiv.1612.07622",
+    "2016arXiv161207622M",
+    "2017A&A...600A..22M",
+    "arXiv:1612.07622"
+   ],
+   "added": "2017-04-01"
+  },
+  {
+   "title": "Galactic archaeology with asteroseismology and spectroscopy: Red giants observed by CoRoT and APOGEE",
+   "authors": "Anders et al.",
+   "year": "2017",
+   "pubdate": "2017-01-01",
+   "url": "https://doi.org/10.1051/0004-6361/201527204",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2017A%26A...597A..30A/abstract",
+   "arxiv": "1604.07763",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/201527204",
+    "10.48550/arXiv.1604.07763",
+    "2016A&A...597A..30A",
+    "2016arXiv160407763A",
+    "2017A&A...597A..30A",
+    "arXiv:1604.07763"
+   ],
    "added": "2017-01-01"
+  },
+  {
+   "title": "Cannibals in the thick disk: the young α-rich stars as evolved blue stragglers",
+   "authors": "Jofré et al.",
+   "year": "2016",
+   "pubdate": "2016-10-01",
+   "url": "https://doi.org/10.1051/0004-6361/201629356",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2016A%26A...595A..60J/abstract",
+   "arxiv": "1603.08992",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/201629356",
+    "10.48550/arXiv.1603.08992",
+    "2016A&A...595A..60J",
+    "2016arXiv160308992J",
+    "arXiv:1603.08992"
+   ],
+   "added": "2016-10-01"
+  },
+  {
+   "title": "GRACES observations of young [α/Fe]-rich stars",
+   "authors": "Yong et al.",
+   "year": "2016",
+   "pubdate": "2016-06-01",
+   "url": "https://doi.org/10.1093/mnras/stw676",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2016MNRAS.459..487Y/abstract",
+   "arxiv": "1603.07034",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stw676",
+    "10.48550/arXiv.1603.07034",
+    "2016MNRAS.459..487Y",
+    "2016MNRAS.tmp..463Y",
+    "2016arXiv160307034Y",
+    "arXiv:1603.07034"
+   ],
+   "added": "2016-06-01"
+  },
+  {
+   "title": "Imprints of Radial Migration on the Milky Way’s Metallicity Distribution Functions",
+   "authors": "Loebman et al.",
+   "year": "2016",
+   "pubdate": "2016-02-01",
+   "url": "https://doi.org/10.3847/2041-8205/818/1/L6",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2016ApJ...818L...6L/abstract",
+   "arxiv": "1511.06369",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/2041-8205/818/1/L6",
+    "10.48550/arXiv.1511.06369",
+    "2015arXiv151106369L",
+    "2016ApJ...818L...6L",
+    "arXiv:1511.06369"
+   ],
+   "added": "2016-02-01"
+  },
+  {
+   "title": "Young α-enriched giant stars in the solar neighbourhood",
+   "authors": "Martig et al.",
+   "year": "2015",
+   "pubdate": "2015-08-01",
+   "url": "https://doi.org/10.1093/mnras/stv1071",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2015MNRAS.451.2230M/abstract",
+   "arxiv": "1412.3453",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stv1071",
+    "10.48550/arXiv.1412.3453",
+    "2014arXiv1412.3453M",
+    "2015MNRAS.451.2230M",
+    "arXiv:1412.3453"
+   ],
+   "added": "2015-08-01"
   },
   {
    "title": "Chemical Cartography with APOGEE: Metallicity Distribution Functions and the Chemical Structure of the Milky Way Disk",
    "authors": "Hayden et al.",
    "year": "2015",
+   "pubdate": "2015-08-01",
+   "url": "https://doi.org/10.1088/0004-637X/808/2/132",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2015ApJ...808..132H/abstract",
+   "arxiv": "1503.02110",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1088/0004-637X/808/2/132",
+    "10.48550/arXiv.1503.02110",
+    "2015ApJ...808..132H",
+    "2015arXiv150302110H",
+    "arXiv:1503.02110"
+   ],
+   "added": "2015-08-01"
+  },
+  {
+   "title": "Young [α/Fe]-enhanced stars discovered by CoRoT and APOGEE: What is their origin?",
+   "authors": "Chiappini et al.",
+   "year": "2015",
+   "pubdate": "2015-04-01",
+   "url": "https://doi.org/10.1051/0004-6361/201525865",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2015A%26A...576L..12C/abstract",
+   "arxiv": "1503.06990",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/201525865",
+    "10.48550/arXiv.1503.06990",
+    "2015A&A...576L..12C",
+    "2015arXiv150306990C",
+    "arXiv:1503.06990"
+   ],
+   "added": "2015-04-01"
+  },
+  {
+   "title": "Inference from modelling the chemodynamical evolution of the Milky Way disc",
+   "authors": "Rybizki",
+   "year": "2015",
    "pubdate": "2015-01-01",
-   "url": "https://iopscience.iop.org/article/10.1088/0004-637X/808/2/132",
-   "ads": null,
+   "url": "https://ui.adsabs.harvard.edu/abs/2015PhDT.......249R/abstract",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2015PhDT.......249R/abstract",
    "arxiv": null,
    "categories": [
-    "structure"
+    "chemical"
    ],
-   "ids": [],
+   "ids": [
+    "2015PhDT.......249R"
+   ],
    "added": "2015-01-01"
+  },
+  {
+   "title": "Chemodynamical evolution of the Milky Way disk. II. Variations with Galactic radius and height above the disk plane",
+   "authors": "Minchev et al.",
+   "year": "2014",
+   "pubdate": "2014-12-01",
+   "url": "https://doi.org/10.1051/0004-6361/201423487",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2014A%26A...572A..92M/abstract",
+   "arxiv": "1401.5796",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/201423487",
+    "10.48550/arXiv.1401.5796",
+    "2014A&A...572A..92M",
+    "2014arXiv1401.5796M",
+    "arXiv:1401.5796"
+   ],
+   "added": "2014-12-01"
+  },
+  {
+   "title": "Chemodynamical evolution of the Milky Way disk. I. The solar vicinity",
+   "authors": "Minchev et al.",
+   "year": "2013",
+   "pubdate": "2013-10-01",
+   "url": "https://doi.org/10.1051/0004-6361/201220189",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2013A%26A...558A...9M/abstract",
+   "arxiv": "1208.1506",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/201220189",
+    "10.48550/arXiv.1208.1506",
+    "2012arXiv1208.1506M",
+    "2013A&A...558A...9M",
+    "arXiv:1208.1506"
+   ],
+   "added": "2013-10-01"
+  },
+  {
+   "title": "Galactic archaeology: mapping and dating stellar populations with asteroseismology of red-giant stars",
+   "authors": "Miglio et al.",
+   "year": "2013",
+   "pubdate": "2013-02-01",
+   "url": "https://doi.org/10.1093/mnras/sts345",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2013MNRAS.429..423M/abstract",
+   "arxiv": "1211.0146",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/sts345",
+    "10.48550/arXiv.1211.0146",
+    "2012arXiv1211.0146M",
+    "2013MNRAS.429..423M",
+    "arXiv:1211.0146"
+   ],
+   "added": "2013-02-01"
   },
   {
    "title": "The Spatial Structure of Mono-abundance Sub-populations of the Milky Way Disk",
    "authors": "Bovy et al.",
    "year": "2012",
-   "pubdate": "2012-01-01",
-   "url": "https://iopscience.iop.org/article/10.1088/0004-637X/753/2/148",
-   "ads": null,
-   "arxiv": null,
+   "pubdate": "2012-07-01",
+   "url": "https://doi.org/10.1088/0004-637X/753/2/148",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2012ApJ...753..148B/abstract",
+   "arxiv": "1111.1724",
    "categories": [
-    "structure"
+    "formation_structure",
+    "chemical"
    ],
-   "ids": [],
-   "added": "2012-01-01"
+   "ids": [
+    "10.1088/0004-637X/753/2/148",
+    "10.48550/arXiv.1111.1724",
+    "2011arXiv1111.1724B",
+    "2012ApJ...753..148B",
+    "arXiv:1111.1724"
+   ],
+   "added": "2012-07-01"
+  },
+  {
+   "title": "Chemodynamical Simulations of the Milky Way Galaxy",
+   "authors": "Kobayashi & Nakasato",
+   "year": "2011",
+   "pubdate": "2011-03-01",
+   "url": "https://doi.org/10.1088/0004-637X/729/1/16",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2011ApJ...729...16K/abstract",
+   "arxiv": "1012.5144",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.1088/0004-637X/729/1/16",
+    "10.48550/arXiv.1012.5144",
+    "2010arXiv1012.5144K",
+    "2011ApJ...729...16K",
+    "arXiv:1012.5144"
+   ],
+   "added": "2011-03-01"
   },
   {
    "title": "The Milky Way Tomography with SDSS. I. Stellar Number Density Distribution",
    "authors": "Jurić et al.",
    "year": "2008",
-   "pubdate": "2008-01-01",
-   "url": "https://iopscience.iop.org/article/10.1086/523619",
-   "ads": null,
-   "arxiv": null,
+   "pubdate": "2008-02-01",
+   "url": "https://doi.org/10.1086/523619",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2008ApJ...673..864J/abstract",
+   "arxiv": "astro-ph/0510520",
    "categories": [
-    "structure"
+    "formation_structure"
    ],
-   "ids": [],
-   "added": "2008-01-01"
+   "ids": [
+    "10.1086/523619",
+    "10.48550/arXiv.astro-ph/0510520",
+    "2005astro.ph.10520J",
+    "2008ApJ...673..864J",
+    "arXiv:astro-ph/0510520"
+   ],
+   "added": "2008-02-01"
+  },
+  {
+   "title": "The Chemical Evolution of the Galaxy: The Two-Infall Model",
+   "authors": "Chiappini et al.",
+   "year": "1997",
+   "pubdate": "1997-03-01",
+   "url": "https://doi.org/10.1086/303726",
+   "ads": "https://ui.adsabs.harvard.edu/abs/1997ApJ...477..765C/abstract",
+   "arxiv": "astro-ph/9609199",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1086/303726",
+    "10.48550/arXiv.astro-ph/9609199",
+    "1996astro.ph..9199C",
+    "1997ApJ...477..765C",
+    "arXiv:astro-ph/9609199"
+   ],
+   "added": "1997-03-01"
   }
  ]
 }

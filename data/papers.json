@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "papers": [
   {
    "title": "The Origin of Strong α-Element Bimodalities in FIRE Simulations of Milky Way-Mass Galaxies",
@@ -83,6 +83,24 @@
     "arXiv:2605.16050"
    ],
    "added": "2026-09-01"
+  },
+  {
+   "title": "Chemo-dynamical Analysis of a CNO-Enhanced Ultra Metal-poor Star ($\\rm[Fe/H] &lt; -4$): Insights into Early Enrichment by Faint Population III Supernova",
+   "authors": "Limberg et al.",
+   "year": "2026",
+   "pubdate": "2026-09-01",
+   "url": "https://arxiv.org/abs/2609.13373",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv260913373L/abstract",
+   "arxiv": "2609.13373",
+   "categories": [
+    "firststars"
+   ],
+   "ids": [
+    "10.48550/arXiv.2609.13373",
+    "2026arXiv260913373L",
+    "arXiv:2609.13373"
+   ],
+   "added": "2026-11-24"
   },
   {
    "title": "Impact of selection criteria on the structural parameters of the Galactic thin and thick discs",
@@ -349,6 +367,26 @@
    "added": "2025-08-01"
   },
   {
+   "title": "Discovery of an [Fe/H] ∼ −4.8 Star in Gaia XP Spectra",
+   "authors": "Limberg et al.",
+   "year": "2025",
+   "pubdate": "2025-08-01",
+   "url": "https://doi.org/10.3847/2041-8213/adf196",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2025ApJ...989L..18L/abstract",
+   "arxiv": "2508.00067",
+   "categories": [
+    "firststars"
+   ],
+   "ids": [
+    "10.3847/2041-8213/adf196",
+    "10.48550/arXiv.2508.00067",
+    "2025ApJ...989L..18L",
+    "2025arXiv250800067L",
+    "arXiv:2508.00067"
+   ],
+   "added": "2026-11-24"
+  },
+  {
    "title": "A Detailed Analysis of the Milky Way Warp Based on Classical Cepheids",
    "authors": "Zhou et al.",
    "year": "2025",
@@ -449,6 +487,26 @@
     "arXiv:2410.09705"
    ],
    "added": "2025-01-01"
+  },
+  {
+   "title": "Galactic Archaeology with Gaia",
+   "authors": "Deason & Belokurov",
+   "year": "2024",
+   "pubdate": "2024-12-01",
+   "url": "https://doi.org/10.1016/j.newar.2024.101706",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024NewAR..9901706D/abstract",
+   "arxiv": "2402.12443",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1016/j.newar.2024.101706",
+    "10.48550/arXiv.2402.12443",
+    "2024NewAR..9901706D",
+    "2024arXiv240212443D",
+    "arXiv:2402.12443"
+   ],
+   "added": "2026-11-24"
   },
   {
    "title": "The Three-phase Evolution of the Milky Way",
@@ -758,6 +816,46 @@
    "added": "2023-09-01"
   },
   {
+   "title": "The First Stars: Formation, Properties, and Impact",
+   "authors": "Klessen & Glover",
+   "year": "2023",
+   "pubdate": "2023-08-01",
+   "url": "https://doi.org/10.1146/annurev-astro-071221-053453",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2023ARA%26A..61...65K/abstract",
+   "arxiv": "2303.12500",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev-astro-071221-053453",
+    "10.48550/arXiv.2303.12500",
+    "2023ARA&A..61...65K",
+    "2023arXiv230312500K",
+    "arXiv:2303.12500"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "title": "Hydrodynamical Simulations of the Galaxy Population: Enduring Successes and Outstanding Challenges",
+   "authors": "Crain & van de Voort",
+   "year": "2023",
+   "pubdate": "2023-08-01",
+   "url": "https://doi.org/10.1146/annurev-astro-041923-043618",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2023ARA%26A..61..473C/abstract",
+   "arxiv": "2309.17075",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev-astro-041923-043618",
+    "10.48550/arXiv.2309.17075",
+    "2023ARA&A..61..473C",
+    "2023arXiv230917075C",
+    "arXiv:2309.17075"
+   ],
+   "added": "2026-11-24"
+  },
+  {
    "title": "Gaia Data Release 3. Chemical cartography of the Milky Way",
    "authors": "Gaia Collaboration et al.",
    "year": "2023",
@@ -798,6 +896,26 @@
     "arXiv:2301.07990"
    ],
    "added": "2023-04-01"
+  },
+  {
+   "title": "The Effect of the LMC on the Milky Way System",
+   "authors": "Vasiliev",
+   "year": "2023",
+   "pubdate": "2023-04-01",
+   "url": "https://doi.org/10.3390/galaxies11020059",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2023Galax..11...59V/abstract",
+   "arxiv": "2304.09136",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.3390/galaxies11020059",
+    "10.48550/arXiv.2304.09136",
+    "2023Galax..11...59V",
+    "2023arXiv230409136V",
+    "arXiv:2304.09136"
+   ],
+   "added": "2026-11-24"
   },
   {
    "title": "Li-rich Giants Identified from LAMOST DR8 Low-resolution Survey",
@@ -965,6 +1083,26 @@
    "added": "2021-03-01"
   },
   {
+   "title": "Origin of the heaviest elements: The rapid neutron-capture process",
+   "authors": "Cowan et al.",
+   "year": "2021",
+   "pubdate": "2021-01-01",
+   "url": "https://doi.org/10.1103/RevModPhys.93.015002",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2021RvMP...93a5002C/abstract",
+   "arxiv": "1901.01410",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1103/RevModPhys.93.015002",
+    "10.48550/arXiv.1901.01410",
+    "2019arXiv190101410C",
+    "2021RvMP...93a5002C",
+    "arXiv:1901.01410"
+   ],
+   "added": "2026-11-24"
+  },
+  {
    "title": "Evidence from APOGEE for the presence of a major building block of the halo buried in the inner Galaxy",
    "authors": "Horta et al.",
    "year": "2021",
@@ -1045,6 +1183,87 @@
     "arXiv:2008.04660"
    ],
    "added": "2020-09-01"
+  },
+  {
+   "title": "The Cosmic Baryon and Metal Cycles",
+   "authors": "Péroux & Howk",
+   "year": "2020",
+   "pubdate": "2020-08-01",
+   "url": "https://doi.org/10.1146/annurev-astro-021820-120014",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020ARA%26A..58..363P/abstract",
+   "arxiv": "2011.01935",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev-astro-021820-120014",
+    "10.48550/arXiv.2011.01935",
+    "2020ARA&A..58..363P",
+    "2020ARA&A..5821820P",
+    "2020arXiv201101935P",
+    "arXiv:2011.01935"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "title": "The Assembly of the First Massive Black Holes",
+   "authors": "Inayoshi et al.",
+   "year": "2020",
+   "pubdate": "2020-08-01",
+   "url": "https://doi.org/10.1146/annurev-astro-120419-014455",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020ARA%26A..58...27I/abstract",
+   "arxiv": "1911.05791",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev-astro-120419-014455",
+    "10.48550/arXiv.1911.05791",
+    "2019arXiv191105791I",
+    "2020ARA&A..58...27I",
+    "arXiv:1911.05791"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "title": "Streams, Substructures, and the Early History of the Milky Way",
+   "authors": "Helmi",
+   "year": "2020",
+   "pubdate": "2020-08-01",
+   "url": "https://doi.org/10.1146/annurev-astro-032620-021917",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020ARA%26A..58..205H/abstract",
+   "arxiv": "2002.04340",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev-astro-032620-021917",
+    "10.48550/arXiv.2002.04340",
+    "2020ARA&A..58..205H",
+    "2020arXiv200204340H",
+    "arXiv:2002.04340"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "title": "Intermediate-Mass Black Holes",
+   "authors": "Greene et al.",
+   "year": "2020",
+   "pubdate": "2020-08-01",
+   "url": "https://doi.org/10.1146/annurev-astro-032620-021835",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2020ARA%26A..58..257G/abstract",
+   "arxiv": "1911.09678",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev-astro-032620-021835",
+    "10.48550/arXiv.1911.09678",
+    "2019arXiv191109678G",
+    "2020ARA&A..58..257G",
+    "arXiv:1911.09678"
+   ],
+   "added": "2026-11-24"
   },
   {
    "title": "The recurrent impact of the Sagittarius dwarf on the star formation history of the Milky Way",
@@ -1234,6 +1453,46 @@
     "arXiv:1908.07080"
    ],
    "added": "2019-09-01"
+  },
+  {
+   "title": "The Faintest Dwarf Galaxies",
+   "authors": "Simon",
+   "year": "2019",
+   "pubdate": "2019-08-01",
+   "url": "https://doi.org/10.1146/annurev-astro-091918-104453",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2019ARA%26A..57..375S/abstract",
+   "arxiv": "1901.05465",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev-astro-091918-104453",
+    "10.48550/arXiv.1901.05465",
+    "2019ARA&A..57..375S",
+    "2019arXiv190105465S",
+    "arXiv:1901.05465"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "title": "De re metallica: the cosmic chemical evolution of galaxies",
+   "authors": "Maiolino & Mannucci",
+   "year": "2019",
+   "pubdate": "2019-02-01",
+   "url": "https://doi.org/10.1007/s00159-018-0112-2",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2019A%26ARv..27....3M/abstract",
+   "arxiv": "1811.09642",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1007/s00159-018-0112-2",
+    "10.48550/arXiv.1811.09642",
+    "2018arXiv181109642M",
+    "2019A&ARv..27....3M",
+    "arXiv:1811.09642"
+   ],
+   "added": "2026-11-24"
   },
   {
    "title": "The AMBRE Project: r-process elements in the Milky Way thin and thick discs",
@@ -1500,6 +1759,26 @@
    "added": "2015-08-01"
   },
   {
+   "title": "Near-Field Cosmology with Extremely Metal-Poor Stars",
+   "authors": "Frebel & Norris",
+   "year": "2015",
+   "pubdate": "2015-08-01",
+   "url": "https://doi.org/10.1146/annurev-astro-082214-122423",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2015ARA%26A..53..631F/abstract",
+   "arxiv": "1501.06921",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev-astro-082214-122423",
+    "10.48550/arXiv.1501.06921",
+    "2015ARA&A..53..631F",
+    "2015arXiv150106921F",
+    "arXiv:1501.06921"
+   ],
+   "added": "2026-11-24"
+  },
+  {
    "title": "Chemical Cartography with APOGEE: Metallicity Distribution Functions and the Chemical Structure of the Milky Way Disk",
    "authors": "Hayden et al.",
    "year": "2015",
@@ -1597,6 +1876,26 @@
    "added": "2013-10-01"
   },
   {
+   "title": "Galactic Archaeology: The dwarfs that survived and perished",
+   "authors": "Belokurov",
+   "year": "2013",
+   "pubdate": "2013-09-01",
+   "url": "https://doi.org/10.1016/j.newar.2013.07.001",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2013NewAR..57..100B/abstract",
+   "arxiv": "1307.0041",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1016/j.newar.2013.07.001",
+    "10.48550/arXiv.1307.0041",
+    "2013NewAR..57..100B",
+    "2013arXiv1307.0041B",
+    "arXiv:1307.0041"
+   ],
+   "added": "2026-11-24"
+  },
+  {
    "title": "Galactic archaeology: mapping and dating stellar populations with asteroseismology of red-giant stars",
    "authors": "Miglio et al.",
    "year": "2013",
@@ -1638,6 +1937,26 @@
    "added": "2012-07-01"
   },
   {
+   "title": "The Observed Properties of Dwarf Galaxies in and around the Local Group",
+   "authors": "McConnachie",
+   "year": "2012",
+   "pubdate": "2012-07-01",
+   "url": "https://doi.org/10.1088/0004-6256/144/1/4",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2012AJ....144....4M/abstract",
+   "arxiv": "1204.1562",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1088/0004-6256/144/1/4",
+    "10.48550/arXiv.1204.1562",
+    "2012AJ....144....4M",
+    "2012arXiv1204.1562M",
+    "arXiv:1204.1562"
+   ],
+   "added": "2026-11-24"
+  },
+  {
    "title": "Chemodynamical Simulations of the Milky Way Galaxy",
    "authors": "Kobayashi & Nakasato",
    "year": "2011",
@@ -1656,6 +1975,47 @@
     "arXiv:1012.5144"
    ],
    "added": "2011-03-01"
+  },
+  {
+   "title": "The Ages of Stars",
+   "authors": "Soderblom",
+   "year": "2010",
+   "pubdate": "2010-09-01",
+   "url": "https://doi.org/10.1146/annurev-astro-081309-130806",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2010ARA%26A..48..581S/abstract",
+   "arxiv": "1003.6074",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev-astro-081309-130806",
+    "10.48550/arXiv.1003.6074",
+    "2010ARA&A..48..581S",
+    "2010arXiv1003.6074S",
+    "arXiv:1003.6074"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "title": "The stellar halo of the Galaxy",
+   "authors": "Helmi",
+   "year": "2008",
+   "pubdate": "2008-06-01",
+   "url": "https://doi.org/10.1007/s00159-008-0009-6",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2008A%26ARv..15..145H/abstract",
+   "arxiv": "0804.0019",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1007/s00159-008-0009-6",
+    "10.48550/arXiv.0804.0019",
+    "2008A&ARv..15..145H",
+    "2008A&ARv.tmp....3H",
+    "2008arXiv0804.0019H",
+    "arXiv:0804.0019"
+   ],
+   "added": "2026-11-24"
   },
   {
    "title": "The Milky Way Tomography with SDSS. I. Stellar Number Density Distribution",
@@ -1678,6 +2038,63 @@
    "added": "2008-02-01"
   },
   {
+   "title": "The Discovery and Analysis of Very Metal-Poor Stars in the Galaxy",
+   "authors": "Beers & Christlieb",
+   "year": "2005",
+   "pubdate": "2005-09-01",
+   "url": "https://doi.org/10.1146/annurev.astro.42.053102.134057",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2005ARA%26A..43..531B/abstract",
+   "arxiv": null,
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev.astro.42.053102.134057",
+    "2005ARA&A..43..531B"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "title": "The New Galaxy: Signatures of Its Formation",
+   "authors": "Freeman & Bland-Hawthorn",
+   "year": "2002",
+   "pubdate": "2002-01-01",
+   "url": "https://doi.org/10.1146/annurev.astro.40.060401.093840",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2002ARA%26A..40..487F/abstract",
+   "arxiv": "astro-ph/0208106",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev.astro.40.060401.093840",
+    "10.48550/arXiv.astro-ph/0208106",
+    "2002ARA&A..40..487F",
+    "2002astro.ph..8106F",
+    "arXiv:astro-ph/0208106"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "title": "Dwarf Galaxies of the Local Group",
+   "authors": "Mateo",
+   "year": "1998",
+   "pubdate": "1998-01-01",
+   "url": "https://doi.org/10.1146/annurev.astro.36.1.435",
+   "ads": "https://ui.adsabs.harvard.edu/abs/1998ARA%26A..36..435M/abstract",
+   "arxiv": "astro-ph/9810070",
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev.astro.36.1.435",
+    "10.48550/arXiv.astro-ph/9810070",
+    "1998ARA&A..36..435M",
+    "1998astro.ph.10070M",
+    "arXiv:astro-ph/9810070"
+   ],
+   "added": "2026-11-24"
+  },
+  {
    "title": "The Chemical Evolution of the Galaxy: The Two-Infall Model",
    "authors": "Chiappini et al.",
    "year": "1997",
@@ -1697,6 +2114,40 @@
     "arXiv:astro-ph/9609199"
    ],
    "added": "1997-03-01"
+  },
+  {
+   "title": "Galactic structure surveys and the evolution of the Milky Way.",
+   "authors": "Majewski",
+   "year": "1993",
+   "pubdate": "1993-01-01",
+   "url": "https://doi.org/10.1146/annurev.aa.31.090193.003043",
+   "ads": "https://ui.adsabs.harvard.edu/abs/1993ARA%26A..31..575M/abstract",
+   "arxiv": null,
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev.aa.31.090193.003043",
+    "1993ARA&A..31..575M"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "title": "Kinematics, chemistry, and structure of the Galaxy.",
+   "authors": "Gilmore et al.",
+   "year": "1989",
+   "pubdate": "1989-01-01",
+   "url": "https://doi.org/10.1146/annurev.aa.27.090189.003011",
+   "ads": "https://ui.adsabs.harvard.edu/abs/1989ARA%26A..27..555G/abstract",
+   "arxiv": null,
+   "categories": [
+    "reviews"
+   ],
+   "ids": [
+    "10.1146/annurev.aa.27.090189.003011",
+    "1989ARA&A..27..555G"
+   ],
+   "added": "2026-11-24"
   }
  ]
 }

@@ -2,6 +2,25 @@
  "updated": "2026-11-24",
  "papers": [
   {
+   "title": "Age dependence of the radial metallicity gradient in the Galactic disc with LAMOST and Gaia",
+   "authors": "Jing et al.",
+   "year": "2026",
+   "pubdate": "2026-12-01",
+   "url": "https://doi.org/10.1093/mnras/stag2006",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.553g2006J/abstract",
+   "arxiv": null,
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1093/mnras/stag2006",
+    "2026MNRAS.553g2006J",
+    "2026MNRAS.tmp.1861J"
+   ],
+   "added": "2026-11-24"
+  },
+  {
    "title": "The Origin of Strong α-Element Bimodalities in FIRE Simulations of Milky Way-Mass Galaxies",
    "authors": "Barry et al.",
    "year": "2026",
@@ -62,6 +81,24 @@
     "arXiv:2601.18896"
    ],
    "added": "2026-10-01"
+  },
+  {
+   "title": "Chemical structure of the solar neighbourhood with DESI DR1",
+   "authors": "Jing et al.",
+   "year": "2026",
+   "pubdate": "2026-10-01",
+   "url": "https://doi.org/10.1051/0004-6361/202660349",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026A%26A...714A..24J/abstract",
+   "arxiv": null,
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.1051/0004-6361/202660349",
+    "2026A&A...714A..24J"
+   ],
+   "added": "2026-11-24"
   },
   {
    "title": "The Low-α Splash Population in the Milky Way",
@@ -143,6 +180,27 @@
     "arXiv:2605.20487"
    ],
    "added": "2026-06-01"
+  },
+  {
+   "title": "Enrichment by the first stars in a relic dwarf galaxy",
+   "authors": "Chiti et al.",
+   "year": "2026",
+   "pubdate": "2026-06-01",
+   "url": "https://doi.org/10.1038/s41550-026-02802-z",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026NatAs..10..830C/abstract",
+   "arxiv": "2508.04053",
+   "categories": [
+    "firststars"
+   ],
+   "ids": [
+    "10.1038/s41550-026-02802-z",
+    "10.48550/arXiv.2508.04053",
+    "2025arXiv250804053C",
+    "2026NatAs..10..830C",
+    "2026NatAs.tmp...57C",
+    "arXiv:2508.04053"
+   ],
+   "added": "2026-11-24"
   },
   {
    "title": "Bar-halo interaction: the role of orbital anisotropy",
@@ -649,6 +707,27 @@
     "arXiv:2403.01842"
    ],
    "added": "2024-05-01"
+  },
+  {
+   "title": "Enrichment by extragalactic first stars in the Large Magellanic Cloud",
+   "authors": "Chiti et al.",
+   "year": "2024",
+   "pubdate": "2024-05-01",
+   "url": "https://doi.org/10.1038/s41550-024-02223-w",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024NatAs...8..637C/abstract",
+   "arxiv": "2401.11307",
+   "categories": [
+    "firststars"
+   ],
+   "ids": [
+    "10.1038/s41550-024-02223-w",
+    "10.48550/arXiv.2401.11307",
+    "2024NatAs...8..637C",
+    "2024NatAs.tmp...57C",
+    "2024arXiv240111307C",
+    "arXiv:2401.11307"
+   ],
+   "added": "2026-11-24"
   },
   {
    "title": "The proto-galaxy of Milky Way-mass haloes in the FIRE simulations",

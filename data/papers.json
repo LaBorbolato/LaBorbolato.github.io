@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "papers": [
   {
    "title": "Age dependence of the radial metallicity gradient in the Galactic disc with LAMOST and Gaia",
@@ -19,6 +19,243 @@
     "2026MNRAS.tmp.1861J"
    ],
    "added": "2026-11-24"
+  },
+  {
+   "title": "Twisted resonant orbits: Quantifying the deceleration of the Galactic bar",
+   "authors": "Archer et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.25039",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261125039A/abstract",
+   "arxiv": "2611.25039",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.25039",
+    "2026arXiv261125039A",
+    "arXiv:2611.25039"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "The non-equilibrium state of the Galactic disk$-$new insights from GALAH DR4",
+   "authors": "Yang et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.25804",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261125804Y/abstract",
+   "arxiv": "2611.25804",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.25804",
+    "2026arXiv261125804Y",
+    "arXiv:2611.25804"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "The meaning of Milky Way mass estimates in the presence of the LMC",
+   "authors": "Silva et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.21732",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261121732S/abstract",
+   "arxiv": "2611.21732",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "2026arXiv261121732S",
+    "arXiv:2611.21732"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "The Milky Way's Early Disk Was Built in Bursts. II. The Multicomponent Age-Metallicity Structure of the High-α Disk",
+   "authors": "Sun et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://doi.org/10.3847/1538-4357/aeb87b",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1012..123S/abstract",
+   "arxiv": "2610.30659",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/1538-4357/aeb87b",
+    "10.48550/arXiv.2610.30659",
+    "2026ApJ..1012..123S",
+    "2026arXiv261030659S",
+    "arXiv:2610.30659"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "Searching for Signatures of i-process Nucleosynthesis in Metal-Rich, Lead-rich Barium Stars",
+   "authors": "Manea et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.05470",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261105470M/abstract",
+   "arxiv": "2611.05470",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.05470",
+    "2026arXiv261105470M",
+    "arXiv:2611.05470"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "Non-monotonic Age-metallicity Relations Across the Galactic Disk Revealed by APOGEE Red Clump Stars",
+   "authors": "Wang et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.22091",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261122091W/abstract",
+   "arxiv": "2611.22091",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.22091",
+    "2026arXiv261122091W",
+    "arXiv:2611.22091"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "Mock catalogues for the DESI DR2 Milky Way mass modeling effort",
+   "authors": "Riley et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.05519",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261105519R/abstract",
+   "arxiv": "2611.05519",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.05519",
+    "2026arXiv261105519R",
+    "arXiv:2611.05519"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "Eos: a merger-induced starburst at the dawn of Galactic low-$α$ disc formation",
+   "authors": "Zhang et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.25023",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261125023Z/abstract",
+   "arxiv": "2611.25023",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.25023",
+    "2026arXiv261125023Z",
+    "arXiv:2611.25023"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "DESI DR2 Results III: The Mass of the Milky Way",
+   "authors": "DESI Collaboration et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.05518",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261105518D/abstract",
+   "arxiv": "2611.05518",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.05518",
+    "2026arXiv261105518D",
+    "arXiv:2611.05518"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "Constraining the Milky Way Mass profile with data driven distribution function using DESI DR2 halo stars",
+   "authors": "Zhou et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.05520",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261105520Z/abstract",
+   "arxiv": "2611.05520",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.05520",
+    "2026arXiv261105520Z",
+    "arXiv:2611.05520"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "Chemical Cartography Across Time: The Age-Dependent Chemical Structure of the Milky Way with a Homogeneous Sample of 580,000 Giants from Five Surveys",
+   "authors": "Shen et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.26550",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261126550S/abstract",
+   "arxiv": "2611.26550",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.26550",
+    "2026arXiv261126550S",
+    "arXiv:2611.26550"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "An early interaction between the Sagittarius dwarf and the Milky Way I: Fossil signatures in the phase-space structure of the disc",
+   "authors": "Das & Hunt",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.27898",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261127898D/abstract",
+   "arxiv": "2611.27898",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.27898",
+    "2026arXiv261127898D",
+    "arXiv:2611.27898"
+   ],
+   "added": "2026-11-26"
+  },
+  {
+   "title": "A distribution-function estimate of the Milky Way mass profile from outer halo stars in DESI DR2",
+   "authors": "Medina et al.",
+   "year": "2026",
+   "pubdate": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.05521",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261105521M/abstract",
+   "arxiv": "2611.05521",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2611.05521",
+    "2026arXiv261105521M",
+    "arXiv:2611.05521"
+   ],
+   "added": "2026-11-26"
   },
   {
    "title": "The Origin of Strong α-Element Bimodalities in FIRE Simulations of Milky Way-Mass Galaxies",
@@ -62,6 +299,24 @@
    "added": "2026-10-01"
   },
   {
+   "title": "Impact of Gaia-Sausage-Enceladus merger revealed by a single cosmic clock: thick-to-thin disc transition, gas disc shrinking and bar formation",
+   "authors": "Funakoshi et al.",
+   "year": "2026",
+   "pubdate": "2026-10-01",
+   "url": "https://arxiv.org/abs/2610.30237",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv261030237F/abstract",
+   "arxiv": "2610.30237",
+   "categories": [
+    "formation_structure"
+   ],
+   "ids": [
+    "10.48550/arXiv.2610.30237",
+    "2026arXiv261030237F",
+    "arXiv:2610.30237"
+   ],
+   "added": "2026-11-26"
+  },
+  {
    "title": "Evidence of a massive accretion event 1.8 billion years before the Gaia-Sausage-Enceladus merger",
    "authors": "Massari et al.",
    "year": "2026",
@@ -101,6 +356,27 @@
    "added": "2026-11-24"
   },
   {
+   "title": "A Two-stage Settling of the Milky Way Disk Revealed by Precise ChronoGal Ages",
+   "authors": "Mirabal et al.",
+   "year": "2026",
+   "pubdate": "2026-10-01",
+   "url": "https://doi.org/10.3847/2041-8213/aeb0a3",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1010L..38M/abstract",
+   "arxiv": "2610.03164",
+   "categories": [
+    "formation_structure",
+    "chemical"
+   ],
+   "ids": [
+    "10.3847/2041-8213/aeb0a3",
+    "10.48550/arXiv.2610.03164",
+    "2026ApJ..1010L..38M",
+    "2026arXiv261003164M",
+    "arXiv:2610.03164"
+   ],
+   "added": "2026-11-26"
+  },
+  {
    "title": "The Low-α Splash Population in the Milky Way",
    "authors": "Borbolato et al.",
    "year": "2026",
@@ -120,6 +396,24 @@
     "arXiv:2605.16050"
    ],
    "added": "2026-09-01"
+  },
+  {
+   "title": "Snapshots of r-process production in the Milky Way disk",
+   "authors": "Kane et al.",
+   "year": "2026",
+   "pubdate": "2026-09-01",
+   "url": "https://arxiv.org/abs/2609.36013",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2026arXiv260936013K/abstract",
+   "arxiv": "2609.36013",
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "10.48550/arXiv.2609.36013",
+    "2026arXiv260936013K",
+    "arXiv:2609.36013"
+   ],
+   "added": "2026-11-26"
   },
   {
    "title": "Chemo-dynamical Analysis of a CNO-Enhanced Ultra Metal-poor Star ($\\rm[Fe/H] &lt; -4$): Insights into Early Enrichment by Faint Population III Supernova",
@@ -687,6 +981,22 @@
     "arXiv:2402.09399"
    ],
    "added": "2024-07-01"
+  },
+  {
+   "title": "Age and metallicity gradients in the Milky Way",
+   "authors": "Hawkins",
+   "year": "2024",
+   "pubdate": "2024-06-01",
+   "url": "https://ui.adsabs.harvard.edu/abs/2024AAS...24431505H/abstract",
+   "ads": "https://ui.adsabs.harvard.edu/abs/2024AAS...24431505H/abstract",
+   "arxiv": null,
+   "categories": [
+    "chemical"
+   ],
+   "ids": [
+    "2024AAS...24431505H"
+   ],
+   "added": "2026-11-26"
   },
   {
    "title": "Mapping the Chemodynamics of the Galactic Disk Using the LAMOST and APOGEE Red Clump Stars",
